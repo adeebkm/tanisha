@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { FacebookProfileData, generateFacebookProfile } from '../utils/facebookData';
-import { getFakeImageUrl, getPersonaPhotos } from '../utils/fakeImages';
+import { getFakeImageUrl } from '../utils/fakeImages';
 
 interface FacebookProfileProps {
   resultId: string;
@@ -192,21 +192,6 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
           <div style={{ display: 'flex', gap: '16px' }}>
             {/* Left Sidebar: Photos */}
             <div style={{ width: '400px', flexShrink: 0 }}>
-              <div style={{ backgroundColor: 'white', borderRadius: '8px', padding: '16px', boxShadow: '0 1px 2px rgba(0,0,0,0.1)', marginBottom: '16px' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
-                  <h2 style={{ fontSize: '20px', fontWeight: 700 }}>Photos</h2>
-                  <span onClick={() => setActiveTab('Photos')} style={{ color: '#1877f2', cursor: 'pointer', fontSize: '15px' }}>See All Photos</span>
-                </div>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '4px', borderRadius: '8px', overflow: 'hidden' }}>
-                  {getPersonaPhotos('African American', 'Female').slice(0, 5).map((photo, i) => (
-                    <div key={i} style={{ aspectRatio: '1', backgroundColor: '#f0f2f5' }}>
-                      <img src={photo} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="" onError={(e) => {
-                        (e.target as HTMLImageElement).src = getFakeImageUrl(resultId, 'avatar');
-                      }} />
-                    </div>
-                  ))}
-                </div>
-              </div>
 
               {/* Footer Links */}
               <div style={{ color: '#65676b', fontSize: '13px', padding: '0 16px' }}>
@@ -300,44 +285,13 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
                 {activeTab === 'Friends' && "No friends to show"}
                 {activeTab === 'Check-ins' && "No places to show"}
                 {activeTab === 'Photos' && (
-                  <div style={{ textAlign: 'left' }}>
-                    <div style={{ display: 'flex', gap: '24px', borderBottom: '1px solid #ddd', marginBottom: '16px' }}>
-                      <div style={{ padding: '8px 0', borderBottom: '3px solid #1877f2', color: '#1877f2', fontWeight: 600, cursor: 'pointer' }}>Tanisha's Photos</div>
-                      <div style={{ padding: '8px 0', color: '#65676b', fontWeight: 600, cursor: 'pointer' }}>Albums</div>
-                    </div>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '8px' }}>
-                      {getPersonaPhotos('African American', 'Female').slice(0, 5).map((photo, i) => (
-                        <div key={i} style={{ aspectRatio: '1', borderRadius: '8px', overflow: 'hidden' }}>
-                          <img src={photo} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="" onError={(e) => {
-                            (e.target as HTMLImageElement).src = getFakeImageUrl(resultId, 'avatar');
-                          }} />
-                        </div>
-                      ))}
-                    </div>
+                  <div style={{ textAlign: 'center', color: '#65676b', padding: '40px 16px' }}>
+                    No photos to show
                   </div>
                 )}
               </div>
             </div>
 
-            {/* Photos section for About and Friends tabs */}
-            {(activeTab === 'About' || activeTab === 'Friends') && (
-              <div style={{ backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 1px 2px rgba(0,0,0,0.1)', overflow: 'hidden' }}>
-                <div style={{ padding: '20px 16px' }}>
-                  <h2 style={{ fontSize: '20px', fontWeight: 700, margin: 0 }}>Photos</h2>
-                </div>
-                <div style={{ padding: '0 16px 20px', borderTop: '1px solid #ddd' }}>
-                  <div style={{ display: 'flex', gap: '24px', borderBottom: '1px solid #ddd', marginBottom: '16px' }}>
-                    <div style={{ padding: '8px 0', borderBottom: '3px solid #1877f2', color: '#1877f2', fontWeight: 600, cursor: 'pointer' }}>Tanisha's Photos</div>
-                    <div style={{ padding: '8px 0', color: '#65676b', fontWeight: 600, cursor: 'pointer' }}>Albums</div>
-                  </div>
-                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '8px' }}>
-                    <div style={{ aspectRatio: '1', borderRadius: '8px', overflow: 'hidden' }}>
-                      <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
           </div>
         )}
       </div>
