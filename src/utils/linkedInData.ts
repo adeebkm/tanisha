@@ -213,13 +213,13 @@ export const generateLinkedInProfile = (resultId: string): LinkedInProfileData =
     };
   }
 
-  // Meredith Mueller - Financial Analyst
-  if (resultId === 'meredith6' || resultId.includes('meredith')) {
+  // Tanisha Jefferson - Financial Analyst
+  if (resultId === 'tanisha6' || resultId.includes('tanisha')) {
     return {
-      name: 'Meredith Mueller',
+      name: 'Tanisha Jefferson',
       headline: 'Financial Analyst | Investment Research & Market Analysis',
       location: 'Chicago, Illinois, United States · Contact info',
-      link: 'https://linkedin.com/in/meredithmueller',
+      link: 'https://linkedin.com/in/tanishajefferson',
       followers: '280',
       connections: '320+',
       about: 'Dedicated Financial Analyst focused on investment research and market analysis. I excel at analyzing financial data, identifying market trends, and developing strategic investment recommendations. My approach combines quantitative analysis with a deep understanding of market dynamics to help clients make informed investment decisions. I am committed to continuous learning and staying abreast of evolving market conditions.',

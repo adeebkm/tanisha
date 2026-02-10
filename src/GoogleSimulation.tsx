@@ -8,17 +8,17 @@ import { FacebookProfileView as FacebookProfile } from './components/FacebookPro
 import { PeopleAlsoSearchFor } from './components/PeopleAlsoSearchFor';
 import { ImagesSection } from './components/ImagesSection';
 import {
-  RESULTS_Meredith_Mueller,
+  RESULTS_Tanisha_Jefferson,
   type SimResult
 } from './data/results';
 import { getRelatedSearches } from './data/relatedSearches';
 
 interface GoogleSimulationProps {
-  searchType?: 'meredith';
+  searchType?: 'tanisha';
 }
 
-const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'meredith' }) => {
-  const [searchQuery, setSearchQuery] = useState('Meredith Mueller');
+const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanisha' }) => {
+  const [searchQuery, setSearchQuery] = useState('Tanisha Jefferson');
   const [activeTab, setActiveTab] = useState('All');
   const [selectedResult, setSelectedResult] = useState<SimResult | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
@@ -32,9 +32,9 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'mered
     setCurrentPage(1);
   }, [activeTab]);
 
-  // Get results for Meredith
+  // Get results for Tanisha
   const allResults = useMemo(() => {
-    return RESULTS_Meredith_Mueller;
+    return RESULTS_Tanisha_Jefferson;
   }, []);
 
   // Filter results by active tab
@@ -83,7 +83,7 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'mered
     return (
       <div style={{ padding: '20px', textAlign: 'center' }}>
         <h1>No results found</h1>
-        <p>Greg Krieger results are not available.</p>
+        <p>Tanisha Jefferson results are not available.</p>
       </div>
     );
   }
@@ -112,24 +112,24 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'mered
             ) : (
               <div>
                 {paginatedResults.map((result, index) => {
-                  const shouldShowMeredithImages = currentPage === 1 && index === 0;
+                  const shouldShowTanishaImages = currentPage === 1 && index === 0;
                   
                   return (
                     <React.Fragment key={result.id}>
-                      {shouldShowMeredithImages && (
+                      {shouldShowTanishaImages && (
                         <ImagesSection
                           images={[
                             {
-                              id: 'meredith-img-1',
-                              title: 'Meredith Mueller – LinkedIn',
+                              id: 'tanisha-img-1',
+                              title: 'Tanisha Jefferson – LinkedIn',
                               source: 'LinkedIn',
-                              imageUrl: 'https://www.eyecenters.com/wp-content/uploads/Meredith_Mueller_Blue.jpg'
+                              imageUrl: 'https://images.unsplash.com/photo-1580489944761-15a19d654d0b?w=400&h=400&fit=crop&crop=faces&auto=format'
                             },
                             {
-                              id: 'meredith-img-2',
-                              title: 'Meredith Mueller – Facebook',
+                              id: 'tanisha-img-2',
+                              title: 'Tanisha Jefferson – Facebook',
                               source: 'Facebook',
-                              imageUrl: 'https://pbs.twimg.com/profile_images/1178073019983552512/Q74w_Ppc_400x400.jpg'
+                              imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=faces&auto=format'
                             }
                           ]}
                           isDark={isDark}

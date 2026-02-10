@@ -1,15 +1,14 @@
-// Related searches for Meredith Mueller
+// Related searches for Tanisha Jefferson
 export const getRelatedSearches = (searchQuery: string): string[] => {
-  // Return Meredith Mueller related searches
+  // Return Tanisha Jefferson related searches
   return [
-    'Meredith Mueller LinkedIn',
-    'Meredith Mueller Facebook',
-    'Meredith Mueller Instagram',
-    'Meredith Mueller nurse practitioner',
-    'Meredith Mueller optometrist',
-    'Meredith Mueller Indianapolis',
-    'Meredith Mueller Louisville',
-    'Meredith Mueller actor'
+    'Tanisha Jefferson LinkedIn',
+    'Tanisha Jefferson Facebook',
+    'Tanisha Jefferson Instagram',
+    'Tanisha Jefferson financial analyst',
+    'Tanisha Jefferson Chicago',
+    'Tanisha Jefferson University of Michigan',
+    'Tanisha Jefferson professional'
   ];
 };
 

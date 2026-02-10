@@ -8,7 +8,7 @@ export type SimResult = {
   urlLike: string;              // e.g., "linkedin.com/in/mjohnson-…"
   discoverability: "High" | "Low";
   footprint: "Present" | "Absent";
-  race: "White American" | "African American";
+  race: "African American" | "African American";
   location?: string;            // ### PLACEHOLDER: Will be replaced with final locations
   imageKey?: string;            // map to a blurred placeholder
   missingNote?: string;         // e.g., "Missing: de | Show results with: dc"
@@ -59,7 +59,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.equityapartments.com › downtown-redmond",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Redmond, WA",
     imageKey: "avatar3"
   },
@@ -95,7 +95,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "zephyrseattle.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Seattle, WA",
     imageKey: "avatar6"
   },
@@ -107,7 +107,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.apartments.com › ... › Seattle › Capitol Hill",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Seattle, WA",
     imageKey: "avatar7"
   },
@@ -131,7 +131,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.yelp.com › ... › Real Estate › Apartments",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Seattle, WA",
     imageKey: "avatar9"
   },
@@ -155,7 +155,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.zephyrlibertylake.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Liberty Lake, WA",
     imageKey: "avatar11"
   },
@@ -167,7 +167,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.apartmenthomeliving.com › Zephyr-Apart...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Seattle, WA",
     imageKey: "avatar12"
   },
@@ -179,7 +179,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "zephyronline.com › Press Releases",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington",
     imageKey: "avatar13"
   },
@@ -191,7 +191,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.instagram.com › zephyrlibertylake",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Liberty Lake, WA",
     imageKey: "avatar14"
   },
@@ -203,7 +203,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.key.net › ...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Walla Walla, WA",
     imageKey: "avatar15"
   },
@@ -215,7 +215,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "zephyrnw.com › research",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Pacific Northwest",
     imageKey: "avatar16"
   },
@@ -227,7 +227,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.facebook.com › Zephyr-on-the-Park",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Redmond, WA",
     imageKey: "avatar17"
   },
@@ -239,7 +239,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "seattlezephyr.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Seattle, WA",
     imageKey: "avatar18"
   },
@@ -251,7 +251,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.amtrak.com › meals-dining › dining-car",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington",
     imageKey: "avatar19"
   },
@@ -263,7 +263,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.dcpowerfootballclub.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar20"
   },
@@ -275,7 +275,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.key.net › ...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Walla Walla, WA",
     imageKey: "avatar21"
   },
@@ -287,7 +287,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "shop.monumentalsportsnetwork.com › mens-lev...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar22"
   },
@@ -299,7 +299,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.yelp.com › ... › Real Estate › Apartments",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Seattle, WA",
     imageKey: "avatar23"
   },
@@ -311,7 +311,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "zephyrvan.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington",
     imageKey: "avatar24"
   },
@@ -323,7 +323,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.zephyrlibertylake.com › weddings",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Liberty Lake, WA",
     imageKey: "avatar25"
   },
@@ -335,7 +335,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.instagram.com › zephyrlibertylake",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Liberty Lake, WA",
     imageKey: "avatar26"
   },
@@ -359,7 +359,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "zephyrseattle.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Seattle, WA",
     imageKey: "avatar28"
   },
@@ -431,7 +431,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.apartmentfinder.com › Seattle-Apartments",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Seattle, WA",
     imageKey: "avatar34"
   },
@@ -455,7 +455,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.uslspokane.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Spokane, WA",
     imageKey: "avatar36"
   },
@@ -467,7 +467,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.amtrakvacations.com › trip-planning › priv...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington",
     imageKey: "avatar37"
   },
@@ -479,7 +479,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.vitalogycraft.com › ...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington",
     imageKey: "avatar38"
   },
@@ -491,7 +491,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.fox44news.com › press-releases › cision",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar39"
   },
@@ -503,7 +503,7 @@ export const RESULTS_High_Present: SimResult[] = [
     urlLike: "www.facebook.com › Underwhelming Cars",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Vancouver, WA",
     imageKey: "avatar40"
   }
@@ -552,7 +552,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "www.espn.com › mma › fighter › michael-johnson",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar3"
   },
@@ -564,7 +564,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "en.wikipedia.org › wiki › Michael_Johnson_(fig...",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar4"
   },
@@ -624,7 +624,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "linkedin.com/in/michael-johnson",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar8b"
   },
@@ -648,7 +648,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "itc.cfa.harvard.edu › people › michael-johnson",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar10"
   },
@@ -660,7 +660,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "mikejohnson.house.gov › contact",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar11"
   },
@@ -672,7 +672,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "immunobiology.arizona.edu › profile › michael-d...",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar12"
   },
@@ -684,7 +684,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "foster.uw.edu › faculty-research › directory › mi...",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar13"
   },
@@ -708,7 +708,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "www.scstatehouse.gov › member",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar15"
   },
@@ -732,7 +732,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "en.wikipedia.org › wiki › Mike_Johnson",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar17"
   },
@@ -768,7 +768,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "www.congress.gov › member › mike-johnson",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar20"
   },
@@ -792,7 +792,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "www.speaker.gov",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar22"
   },
@@ -828,7 +828,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "house.louisiana.gov › H_Reps › members",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar25"
   },
@@ -900,7 +900,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "www.mjblue.com",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar31"
   },
@@ -912,7 +912,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "www.gettyimages.com › Stock photos",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar32"
   },
@@ -924,7 +924,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "x.com › SpeakerJohnson",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar33"
   },
@@ -960,7 +960,7 @@ export const RESULTS_Low_Present: SimResult[] = [
     urlLike: "www.youtube.com › Speaker Mike Johnson",
     discoverability: "Low",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "USA",
     imageKey: "avatar36"
   }
@@ -978,7 +978,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.facebook.com › public › Adeeb-Mohammad",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar1",
     missingNote: "Missing: mohamed | Show results with: mohamed"
@@ -991,7 +991,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.linkedin.com › in › adeeb-khaja-mohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Fairfax, Virginia, United States",
     imageKey: "avatar2",
     followers: "870+",
@@ -1007,7 +1007,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.linkedin.com › pub › dir › Mohammed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar3",
     missingNote: "Missing: dc | Show results with: dc"
@@ -1020,7 +1020,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "mason360.gmu.edu › club_signup",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar4"
   },
@@ -1032,7 +1032,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "mpdc.dc.gov › publication › attachments",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar5"
   },
@@ -1044,7 +1044,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.linkedin.com › in › adeeb-mohammed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "San Francisco Bay Area",
     imageKey: "avatar6",
     followers: "450+",
@@ -1059,7 +1059,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "medicineresidency.smhs.gwu.edu › resident-fello...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar7"
   },
@@ -1071,7 +1071,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "theorg.com › barracuda-networks › org-chart › a...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar8",
     missingNote: "Missing: dc | Show results with: dc",
@@ -1085,7 +1085,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "limonadahilow.wordpress.com › author › malade...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar9",
     sideImageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPY_1oPQ5vCmvhs9MfBEJAGoIJW0ocPOYcUYcV3CBnTByE4q_yMhos&usqp=CAE&s"
@@ -1098,7 +1098,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "limonadahilow.wordpress.com › author › maladeeb",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar10",
     sideImageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPY_1oPQ5vCmvhs9MfBEJAGoIJW0ocPOYcUYcV3CBnTByE4q_yMhos&usqp=CAE&s"
@@ -1112,7 +1112,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "ieeexplore.ieee.org › servlet › Login › similar",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar11"
   },
@@ -1124,7 +1124,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "dccouncil.gov › 2017/05 › mpddd",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar12"
   },
@@ -1136,7 +1136,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "x.com › adeeb_ahamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar13"
   },
@@ -1148,7 +1148,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "researchexperts.utmb.edu › persons › muhamma...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Galveston, TX",
     imageKey: "avatar14"
   },
@@ -1160,7 +1160,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.vdacs.virginia.gov › pdf › office-of-h...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Virginia",
     imageKey: "avatar15"
   },
@@ -1172,7 +1172,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "admissions.dcappeals.gov › jul-2021-exa...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar16"
   },
@@ -1184,7 +1184,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "getinvolved.unrwausa.org › event › search",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar17"
   },
@@ -1196,7 +1196,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "digitalcommons.aaru.edu.jo › isl › vol12 › iss12",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar18"
   },
@@ -1208,7 +1208,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "jdc.jefferson.edu › tjuhpapers",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Philadelphia, PA",
     imageKey: "avatar19"
   },
@@ -1220,7 +1220,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "commencement.vcu.edu › media › virtual-swag-",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Richmond, VA",
     imageKey: "avatar20"
   },
@@ -1233,7 +1233,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.mdpi.com › ...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar21"
   },
@@ -1245,7 +1245,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.worldbank.org › external › annualmeeting-2",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar22"
   },
@@ -1257,7 +1257,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "dchr.dc.gov › dc › dchr › publication › attachments",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar23"
   },
@@ -1269,7 +1269,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "Instagram · adeebahamedofficial",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar24",
     followers: "210+ likes"
@@ -1282,7 +1282,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.urmc.rochester.edu › documents › SMH_Ph...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar25"
   },
@@ -1294,7 +1294,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "admissions.dcappeals.gov › jul-2021-exa...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar26"
   },
@@ -1306,7 +1306,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "Facebook · Adeeb Ahamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar27",
     followers: "330+ reactions"
@@ -1319,7 +1319,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.doximity.com › ... › Maryland › Baltimore",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Baltimore, MD",
     imageKey: "avatar28"
   },
@@ -1331,7 +1331,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.reuters.com › article › world › maldives-ex...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar29"
   },
@@ -1343,7 +1343,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.vdacs.virginia.gov › pdf › office-of-h...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Virginia",
     imageKey: "avatar30"
   },
@@ -1356,7 +1356,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.the100indianmuslims.com › Muhammad-A",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "India",
     imageKey: "avatar31"
   },
@@ -1368,7 +1368,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.amnestyusa.org › uaa",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32"
   },
@@ -1380,7 +1380,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.carleton.edu › profiles › adeeb-mohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Northfield, MN",
     imageKey: "avatar32b"
   },
@@ -1392,7 +1392,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.state.gov › travel-information",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32c"
   },
@@ -1404,7 +1404,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.japaneseintersystems.com › about",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32d"
   },
@@ -1416,7 +1416,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "scholar.google.com › citations › user=msalem",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32"
   },
@@ -1428,7 +1428,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "theorg.com › org › lulu-financial-group › adeeb-ahamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar33"
   },
@@ -1440,7 +1440,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.ahajournals.org › abs › SVIN.123.001004",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar34"
   },
@@ -1452,7 +1452,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "freedomhouse.org › country › freedom-world › 2021",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar35"
   },
@@ -1464,7 +1464,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.instagram.com › adeebahamedofficial",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar36"
   },
@@ -1476,7 +1476,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "www.gwu.edu › student-directory › adeeb-mohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar37"
   },
@@ -1488,7 +1488,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "github.com › adeebmohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar38"
   },
@@ -1500,7 +1500,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "medium.com › @adeebmohamed › career-path",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar39"
   },
@@ -1512,7 +1512,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "about.me › adeebmohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar40"
   },
@@ -1525,7 +1525,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "dev.to › adeebmohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar41"
   },
@@ -1537,7 +1537,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "adeebmohamed.hashnode.dev",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar42"
   },
@@ -1549,7 +1549,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "adeebmohamed.substack.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar43"
   },
@@ -1561,7 +1561,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "adeebmohamed.ghost.io",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar44"
   },
@@ -1573,7 +1573,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "tinyletter.com › adeebmohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar45"
   },
@@ -1585,7 +1585,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "mailchimp.com › campaigns › adeebmohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar46"
   },
@@ -1597,7 +1597,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "calendly.com › adeebmohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar47"
   },
@@ -1609,7 +1609,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "zoom.us › profile › adeebmohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar48"
   },
@@ -1621,7 +1621,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "sites.google.com › view › adeebmohamed",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar49"
   },
@@ -1633,7 +1633,7 @@ export const RESULTS_Adeeb_Present: SimResult[] = [
     urlLike: "adeebmohamed.weebly.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar50"
   }
@@ -1648,7 +1648,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.linkedin.com › pub › dir › Greg › Krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "greg-linkedin-dir"
   },
@@ -1660,7 +1660,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "hksflaw.com › People",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Connecticut",
     imageKey: "greg-hksf"
   },
@@ -1672,7 +1672,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "Instagram · deerrockknives",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     followers: "1.6K+",
     imageKey: "greg-insta"
@@ -1685,7 +1685,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "goleopards.com › sports › roster › greg-krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Belvidere, N.J.",
     imageKey: "greg-football"
   },
@@ -1697,7 +1697,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "LinkedIn · Gregory Krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Blairstown, New Jersey",
     followers: "590+",
     imageKey: "greg-linkedin-profile"
@@ -1710,7 +1710,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.facebook.com › public › Greg-Krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "greg-facebook"
   },
@@ -1722,7 +1722,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "oswegolakers.com › mens-ice-hockey › roster",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Sauquoit, N.Y.",
     imageKey: "greg-hockey"
   },
@@ -1734,7 +1734,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "rockharboronline.com › meet-our-staff",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "greg-church"
   },
@@ -1746,7 +1746,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "collections.carli.illinois.edu › digital › npu_oracol",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "greg-interview"
   },
@@ -1759,7 +1759,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.kennedyfh.com › obituaries › Greg-Krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Essex",
     imageKey: "greg-obituary"
   },
@@ -1771,7 +1771,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.farringdon-law.co.uk › our-barristers › greg...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "London",
     imageKey: "greg-barrister"
   },
@@ -1783,7 +1783,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "Instagram · gregggkrieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     followers: "320+",
     imageKey: "greg-insta2"
@@ -1796,7 +1796,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.eliteprospects.com › player › greg-krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "greg-hockey-stats"
   },
@@ -1808,7 +1808,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.road-results.com › racer",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "greg-racing"
   },
@@ -1820,7 +1820,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "profiles.superlawyers.com › ... › Hartford",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Hartford, CT",
     imageKey: "greg-superlawyers"
   },
@@ -1832,7 +1832,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "LinkedIn · Greg Krieger, MBA",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Greater Indianapolis",
     followers: "500+",
     imageKey: "greg-linkedin-mba"
@@ -1845,7 +1845,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "ohioturfgrass.org › members",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Boardman, OH",
     imageKey: "greg-turfgrass"
   },
@@ -1857,7 +1857,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.missionsprings.com › Staff",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "greg-mission"
   },
@@ -1870,7 +1870,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.martindale.com › Connecticut › Hartford",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Hartford, CT",
     imageKey: "greg-martindale"
   },
@@ -1882,7 +1882,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.facebook.com › public › Gregory-Krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "greg-facebook2"
   },
@@ -1894,7 +1894,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "obituaries.startribune.com › obituary › gregory-...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "greg-obituary2"
   },
@@ -1906,7 +1906,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.tributearchive.com › obituaries › greg-krie...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "ESSEX, ON",
     imageKey: "greg-obituary3"
   },
@@ -1918,7 +1918,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "members.ctbar.org › members",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Hartford, CT",
     imageKey: "greg-ctbar"
   },
@@ -1930,7 +1930,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.evergreenmemorialfuneralhome.com › Greg...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Middletown, NJ",
     imageKey: "greg-obituary4"
   },
@@ -1942,7 +1942,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.legal500.com › 1947265-greg-krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "London",
     imageKey: "greg-legal500"
   },
@@ -1954,7 +1954,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.imdb.com › name",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "greg-imdb"
   },
@@ -1966,7 +1966,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.farringdon-law.co.uk › our-barristers",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "London",
     imageKey: "greg-cv"
   },
@@ -1978,7 +1978,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.ohioresidentdatabase.com › ... › Augusta Dr",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Boardman, OH",
     imageKey: "greg-ohio"
   },
@@ -1991,7 +1991,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.the100indianmuslims.com › Greg-Krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar31"
   },
@@ -2003,7 +2003,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.amnestyusa.org › uaa",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32"
   },
@@ -2015,7 +2015,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.carleton.edu › profiles › greg-krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Northfield, MN",
     imageKey: "avatar32b"
   },
@@ -2027,7 +2027,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.state.gov › travel-information",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32c"
   },
@@ -2039,7 +2039,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.japaneseintersystems.com › about",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32d"
   },
@@ -2051,7 +2051,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "scholar.google.com › citations › user=gkrieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32"
   },
@@ -2063,7 +2063,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "theorg.com › org › lulu-financial-group › greg-krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar33"
   },
@@ -2075,7 +2075,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.ahajournals.org › abs › SVIN.123.001004",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar34"
   },
@@ -2087,7 +2087,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "freedomhouse.org › country › freedom-world › 2021",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar35"
   },
@@ -2099,7 +2099,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.instagram.com › gregkriegerofficial",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar36"
   },
@@ -2111,7 +2111,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "www.gwu.edu › student-directory › greg-krieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar37"
   },
@@ -2123,7 +2123,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "github.com › gregkrieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar38"
   },
@@ -2135,7 +2135,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "medium.com › @gregkrieger › career-path",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar39"
   },
@@ -2147,7 +2147,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "about.me › gregkrieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar40"
   },
@@ -2160,7 +2160,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "dev.to › gregkrieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar41"
   },
@@ -2172,7 +2172,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "gregkrieger.hashnode.dev",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar42"
   },
@@ -2184,7 +2184,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "gregkrieger.substack.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar43"
   },
@@ -2196,7 +2196,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "gregkrieger.ghost.io",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar44"
   },
@@ -2208,7 +2208,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "tinyletter.com › gregkrieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar45"
   },
@@ -2220,7 +2220,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "mailchimp.com › campaigns › gregkrieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar46"
   },
@@ -2232,7 +2232,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "calendly.com › gregkrieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar47"
   },
@@ -2244,7 +2244,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "zoom.us › profile › gregkrieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar48"
   },
@@ -2256,7 +2256,7 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "sites.google.com › view › gregkrieger",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar49"
   },
@@ -2268,779 +2268,779 @@ export const RESULTS_Greg_Krieger: SimResult[] = [
     urlLike: "gregkrieger.weebly.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar50"
   }
 ];
 
-export const RESULTS_Meredith_Mueller: SimResult[] = [
+export const RESULTS_Tanisha_Jefferson: SimResult[] = [
   // Page 1
   {
-    id: "meredith1",
+    id: "tanisha1",
     platform: "LinkedIn",
-    displayName: "20+ \"Meredith Mueller\" profiles",
-    snippet: "Meredith Mueller. Empowering Change | Advocate for Positive Healthcare Outcomes | Skilled in Empathy, Leadership, and Communication. Lilburn, GA.Read more",
-    urlLike: "www.linkedin.com › pub › dir › Mueller",
+    displayName: "20+ \"Tanisha Jefferson\" profiles",
+    snippet: "Tanisha Jefferson. Empowering Change | Advocate for Positive Healthcare Outcomes | Skilled in Empathy, Leadership, and Communication. Chicago, IL.Read more",
+    urlLike: "www.linkedin.com › pub › dir › Jefferson",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Lilburn, GA",
-    imageKey: "meredith-linkedin-dir"
+    imageKey: "tanisha-linkedin-dir"
   },
   {
-    id: "meredith2",
+    id: "tanisha2",
     platform: "Facebook",
-    displayName: "Meredith Mueller in people",
-    snippet: "View the profiles of people named Meredith Mueller. Join Facebook to connect with Meredith Mueller and others you may know. Facebook gives people the...",
-    urlLike: "www.facebook.com › public › Meredith-Mueller",
+    displayName: "Tanisha Jefferson in people",
+    snippet: "View the profiles of people named Tanisha Jefferson. Join Facebook to connect with Tanisha Jefferson and others you may know. Facebook gives people the...",
+    urlLike: "www.facebook.com › public › Meredith-Jefferson",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
-    imageKey: "meredith-facebook"
+    imageKey: "tanisha-facebook"
   },
   {
-    id: "meredith3",
+    id: "tanisha3",
     platform: "IMDb",
-    displayName: "Meredith Mueller | Actor",
-    snippet: "Meredith Mueller. Actor: Undercover Kids. Meredith Mueller is known for Undercover Kids (2004).",
+    displayName: "Tanisha Jefferson | Actor",
+    snippet: "Tanisha Jefferson. Actor: Undercover Kids. Tanisha Jefferson is known for Undercover Kids (2004).",
     urlLike: "www.imdb.com › name",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
-    imageKey: "meredith-imdb"
+    imageKey: "tanisha-imdb"
   },
   {
-    id: "meredith4",
+    id: "tanisha4",
     platform: "Instagram",
-    displayName: "Meredith Cline Mueller (@meredithmueller7)",
-    snippet: "720+ followers · Meredith Cline Mueller (@meredithmueller7) • Instagram photos and videos ... Meredith Cline Mueller. 725 followers · 1.8K+ following · 288 posts ...Read more",
-    urlLike: "Instagram · meredithmueller7",
+    displayName: "Meredith Cline Jefferson (@tanishamueller7)",
+    snippet: "720+ followers · Meredith Cline Jefferson (@tanishamueller7) • Instagram photos and videos ... Meredith Cline Jefferson. 725 followers · 1.8K+ following · 288 posts ...Read more",
+    urlLike: "Instagram · tanishamueller7",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     followers: "720+",
-    imageKey: "meredith-insta"
+    imageKey: "tanisha-insta"
   },
   {
-    id: "meredith5",
+    id: "tanisha5",
     platform: "Bennett & Bloom Eye Centers",
-    displayName: "Meredith Lanham Mueller, O.D., FAAO | Optometry Louisville",
-    snippet: "Dr. Lanham Mueller is an optometrist at Bennett & Bloom Eye Centers in Louisville and is proficient in treating patients with dry eye, glaucoma, lasers, ...",
-    urlLike: "www.eyecenters.com › doctors › meredith-lanha...",
+    displayName: "Meredith Lanham Jefferson, O.D., FAAO | Optometry Louisville",
+    snippet: "Dr. Lanham Jefferson is an optometrist at Bennett & Bloom Eye Centers in Louisville and is proficient in treating patients with dry eye, glaucoma, lasers, ...",
+    urlLike: "www.eyecenters.com › doctors › tanisha-lanha...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Louisville",
-    imageKey: "meredith-optometry"
+    imageKey: "tanisha-optometry"
   },
   {
-    id: "meredith6",
+    id: "tanisha6",
     platform: "LinkedIn",
-    displayName: "Meredith Mueller - The Lawrence Company",
+    displayName: "Tanisha Jefferson - The Lawrence Company",
     snippet: "110+ followers · Los Angeles, California, United States · The Lawrence Company · I am a seasoned events producer and project manager with twenty years of experience… · Experience: The Lawrence Company · Education: Vassar College ...",
-    urlLike: "LinkedIn · Meredith Mueller",
+    urlLike: "LinkedIn · Tanisha Jefferson",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Los Angeles, California",
     followers: "110+",
-    imageKey: "meredith-linkedin-profile"
+    imageKey: "tanisha-linkedin-profile"
   },
   {
-    id: "meredith7",
+    id: "tanisha7",
     platform: "Axis Sports Medicine",
     displayName: "Avon Colorado Physical Therapy - Axis Sports Medicine",
     snippet: "physical therapists in Avon + STAFF · MEREDITH MUELLER · GENTIAN NUZZO · SHANNON IRISH​ · Jamie Rodriguez · Brady Baker · Robyn Ritsch.Read more",
     urlLike: "axissportsmedicine.com › avon",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Avon, Colorado",
-    imageKey: "meredith-physical-therapy"
+    imageKey: "tanisha-physical-therapy"
   },
   {
-    id: "meredith8",
+    id: "tanisha8",
     platform: "Zola",
     displayName: "Meredith Muller and Brice Turner's Wedding Website",
     snippet: "The wedding website of Meredith Muller and Brice Turner. ... Meredith Muller. June 6, 2026. Charlotte, NC. RSVP. For all the days along the ...Read more",
-    urlLike: "www.zola.com › wedding › meredithandbrice2026",
+    urlLike: "www.zola.com › wedding › tanishaandbrice2026",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Charlotte, NC",
-    imageKey: "meredith-wedding"
+    imageKey: "tanisha-wedding"
   },
   {
-    id: "meredith9",
+    id: "tanisha9",
     platform: "Dr Leonardo",
-    displayName: "About | Meredith Mueller DNP, NNP-BC | Nurse Practitioner",
-    snippet: "Meredith Mueller DNP, NNP-BC | Nurse Practitioner | NPI 1013698745 | 8111 Township Line Rd | Indianapolis, IN 46260-2479 | Tel 317-528-5433.",
-    urlLike: "meredithmueller414.dr-leonardo.com › about-us",
+    displayName: "About | Tanisha Jefferson DNP, NNP-BC | Nurse Practitioner",
+    snippet: "Tanisha Jefferson DNP, NNP-BC | Nurse Practitioner | NPI 1013698745 | 8111 Township Line Rd | Indianapolis, IN 46260-2479 | Tel 317-528-5433.",
+    urlLike: "tanishamueller414.dr-leonardo.com › about-us",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Indianapolis, IN",
-    imageKey: "meredith-nurse"
+    imageKey: "tanisha-nurse"
   },
   {
-    id: "meredith10",
+    id: "tanisha10",
     platform: "Doximity",
-    displayName: "Neonatal Nurse Practitioner - Meredith Mueller NP",
-    snippet: "Meredith Mueller is a neonatal nurse practitioner in Indianapolis, Indiana. Join to View Full Profile. 8111 Township Line RdIndianapolis, IN 46260.Read more",
+    displayName: "Neonatal Nurse Practitioner - Tanisha Jefferson NP",
+    snippet: "Tanisha Jefferson is a neonatal nurse practitioner in Indianapolis, Indiana. Join to View Full Profile. 8111 Township Line RdIndianapolis, IN 46260.Read more",
     urlLike: "www.doximity.com › ... › Indiana › Indianapolis",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Indianapolis, IN",
-    imageKey: "meredith-doximity"
+    imageKey: "tanisha-doximity"
   },
   // Page 2
   {
-    id: "meredith11",
+    id: "tanisha11",
     platform: "X",
-    displayName: "Meredith Mueller (@bibliophilemnm) / Posts / X",
-    snippet: "110+ followers · Meredith Mueller ... Meredith. 34. Twin. Social Worker. Feminist. Professional procrastinator. Avid Reds fan. Prolific Temple Runner. Posts. Reposted by Meredith ...Read more",
+    displayName: "Tanisha Jefferson (@bibliophilemnm) / Posts / X",
+    snippet: "110+ followers · Tanisha Jefferson ... Meredith. 34. Twin. Social Worker. Feminist. Professional procrastinator. Avid Reds fan. Prolific Temple Runner. Posts. Reposted by Meredith ...Read more",
     urlLike: "X · bibliophilemnm",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     followers: "110+",
-    imageKey: "meredith-x"
+    imageKey: "tanisha-x"
   },
   {
-    id: "meredith12",
+    id: "tanisha12",
     platform: "SLC.gov",
     displayName: "Meredith Muller | Community and Neighborhoods",
     snippet: "Meredith Muller · Meredith Muller · Salt Lake City · Additional Resources · SLC.gov on Social Media. Follow us on Facebook · Follow us on X · Subscribe to us on ...Read more",
-    urlLike: "www.slc.gov › can › staff › meredith-muller",
+    urlLike: "www.slc.gov › can › staff › tanisha-muller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Salt Lake City",
-    imageKey: "meredith-slc"
+    imageKey: "tanisha-slc"
   },
   {
-    id: "meredith13",
+    id: "tanisha13",
     platform: "TikTok",
-    displayName: "Meredith Mueller (@meredithmueller)",
-    snippet: "410+ followers · Meredith Mueller (@meredithmueller) on TikTok | 4884 Likes. 417 Followers. Watch the latest video from Meredith Mueller (@meredithmueller).",
-    urlLike: "TikTok · Meredith Mueller",
+    displayName: "Tanisha Jefferson (@tanishamueller)",
+    snippet: "410+ followers · Tanisha Jefferson (@tanishamueller) on TikTok | 4884 Likes. 417 Followers. Watch the latest video from Tanisha Jefferson (@tanishamueller).",
+    urlLike: "TikTok · Tanisha Jefferson",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     followers: "410+",
-    imageKey: "meredith-tiktok"
+    imageKey: "tanisha-tiktok"
   },
   {
-    id: "meredith14",
+    id: "tanisha14",
     platform: "Yelp",
     displayName: "LEFFEL MEREDITH MUELLER - Updated December 2025",
-    snippet: "Zionsville, IN · Health & Medical · Counseling & Mental Health · Leffel Meredith Mueller. Leffel Meredith Mueller. Counseling & Mental Health. Unclaimed. Add ...Read more",
+    snippet: "Zionsville, IN · Health & Medical · Counseling & Mental Health · Leffel Tanisha Jefferson. Leffel Tanisha Jefferson. Counseling & Mental Health. Unclaimed. Add ...Read more",
     urlLike: "www.yelp.com › ... › Counseling & Mental Health",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Zionsville, IN",
-    imageKey: "meredith-yelp"
+    imageKey: "tanisha-yelp"
   },
   {
-    id: "meredith15",
+    id: "tanisha15",
     platform: "Instagram",
-    displayName: "The always radiant, Meredith Mueller, modeling local favorite ...",
-    snippet: "10+ likes · 7 months ago · 0:04 · The always radiant, Meredith Mueller, modeling local favorite @gemsofwisdomshop . · Beautiful necklaces from @melissa_de_la_fuente. · @avarauchh ...",
+    displayName: "The always radiant, Tanisha Jefferson, modeling local favorite ...",
+    snippet: "10+ likes · 7 months ago · 0:04 · The always radiant, Tanisha Jefferson, modeling local favorite @gemsofwisdomshop . · Beautiful necklaces from @melissa_de_la_fuente. · @avarauchh ...",
     urlLike: "Instagram · tkarnimports",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
-    imageKey: "meredith-insta2"
+    imageKey: "tanisha-insta2"
   },
   {
-    id: "meredith16",
+    id: "tanisha16",
     platform: "Instagram",
-    displayName: "Meredith Mueller (@meredithemueller)",
+    displayName: "Tanisha Jefferson (@tanishaemueller)",
     snippet: "2.1K+ followers · KANSAS CITY @westvillagerealty · Follow along a day in the real estate world! · A look back into the last several months! · Help us welcome Meredith, the newest ...Read more",
-    urlLike: "Instagram · meredithemueller",
+    urlLike: "Instagram · tanishaemueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Kansas City",
     followers: "2.1K+",
-    imageKey: "meredith-insta3"
+    imageKey: "tanisha-insta3"
   },
   {
-    id: "meredith17",
+    id: "tanisha17",
     platform: "Men Stopping Violence",
-    displayName: "Meredith Mueller - Address, Phone Number, Criminal ...",
-    snippet: "Meredith M Mueller, 30 Ridgway, CO ... Born on January 1, 1996, Meredith Mueller is 30 years old. According to our records, Meredith Mueller's phone number is ( ...Read more",
+    displayName: "Tanisha Jefferson - Address, Phone Number, Criminal ...",
+    snippet: "Meredith M Jefferson, 30 Ridgway, CO ... Born on January 1, 1996, Tanisha Jefferson is 30 years old. According to our records, Tanisha Jefferson's phone number is ( ...Read more",
     urlLike: "www.menstoppingviolence.org › People › M",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Ridgway, CO",
-    imageKey: "meredith-violence"
+    imageKey: "tanisha-violence"
   },
   {
-    id: "meredith18",
+    id: "tanisha18",
     platform: "Pinterest",
-    displayName: "Meredith Mueller (mermer91) - Profile",
-    snippet: "See what Meredith Mueller (mermer91) has discovered on Pinterest, the world's biggest collection of ideas.",
+    displayName: "Tanisha Jefferson (mermer91) - Profile",
+    snippet: "See what Tanisha Jefferson (mermer91) has discovered on Pinterest, the world's biggest collection of ideas.",
     urlLike: "www.pinterest.com › mermer91",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
-    imageKey: "meredith-pinterest"
+    imageKey: "tanisha-pinterest"
   },
   {
-    id: "meredith19",
+    id: "tanisha19",
     platform: "Meredith Model & Talent Agency",
     displayName: "Girls",
-    snippet: "Channing Mueller · Shoe 1; Age 7. Charlie Guidry · Shoe 6; Age 13. Charlotte Kellner ... © Meredith Model & Talent Agency. All rights reserved. Powered by ...Read more",
-    urlLike: "www.meredithagency.com › divisions › girls",
+    snippet: "Channing Jefferson · Shoe 1; Age 7. Charlie Guidry · Shoe 6; Age 13. Charlotte Kellner ... © Meredith Model & Talent Agency. All rights reserved. Powered by ...Read more",
+    urlLike: "www.tanishaagency.com › divisions › girls",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
-    imageKey: "meredith-model"
+    imageKey: "tanisha-model"
   },
   {
-    id: "meredith20",
+    id: "tanisha20",
     platform: "WebMD",
-    displayName: "Meredith Mueller, Nurse Practitioner | Indianapolis, IN",
-    snippet: "Meredith Mueller most often treats Anemia During Pregnancy, Arrhythmias, and Excessive Weight Gain During Pregnancy. What treatments does Meredith Mueller ...Read more",
+    displayName: "Tanisha Jefferson, Nurse Practitioner | Indianapolis, IN",
+    snippet: "Tanisha Jefferson most often treats Anemia During Pregnancy, Arrhythmias, and Excessive Weight Gain During Pregnancy. What treatments does Tanisha Jefferson ...Read more",
     urlLike: "doctor.webmd.com › ... › IN › Indianapolis",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Indianapolis, IN",
-    imageKey: "meredith-webmd"
+    imageKey: "tanisha-webmd"
   },
   // Page 3
   {
-    id: "meredith21",
+    id: "tanisha21",
     platform: "Crate & Barrel",
-    displayName: "Meredith Mueller Jordan Browen Wedding Gift Registry",
+    displayName: "Tanisha Jefferson Jordan Browen Wedding Gift Registry",
     snippet: "Our iOS App. Shop exclusive first looks, get personalized alerts and manage your registry faster and easier than ever before. (Opens in new window). Help.",
     urlLike: "www.crateandbarrel.com › gift-registry › meredi...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
-    imageKey: "meredith-registry"
+    imageKey: "tanisha-registry"
   },
   {
-    id: "meredith22",
+    id: "tanisha22",
     platform: "National Association of Personnel Services",
-    displayName: "NAPS Member Spotlight: Meredith Mueller Daly",
-    snippet: "Feb 17, 2020 — Meredith Mueller Daly, Sign In, Login with Facebook, Login with LinkedIn, OR Remember Me, Forgot your password? Haven't joined yet?Read more",
+    displayName: "NAPS Member Spotlight: Tanisha Jefferson Daly",
+    snippet: "Feb 17, 2020 — Tanisha Jefferson Daly, Sign In, Login with Facebook, Login with LinkedIn, OR Remember Me, Forgot your password? Haven't joined yet?Read more",
     urlLike: "www.naps360.org › blogpost › NAPS-Member-S...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
-    imageKey: "meredith-naps"
+    imageKey: "tanisha-naps"
   },
   {
-    id: "meredith23",
+    id: "tanisha23",
     platform: "Delaware Valley Ornithological Club (DVOC)",
-    displayName: "Merideth Mueller-Bolton",
-    snippet: "Meredith Mueller-Bolton. Positions and Achievements. Life Member. I moved down to Little Egg Harbor from Basking Ridge, where I was on staff for NJ Audubon ...Read more",
+    displayName: "Merideth Jefferson-Bolton",
+    snippet: "Tanisha Jefferson-Bolton. Positions and Achievements. Life Member. I moved down to Little Egg Harbor from Basking Ridge, where I was on staff for NJ Audubon ...Read more",
     urlLike: "dvoc.org › Membership › Members",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Little Egg Harbor",
-    imageKey: "meredith-bird"
+    imageKey: "tanisha-bird"
   },
   {
-    id: "meredith24",
+    id: "tanisha24",
     platform: "LinkedIn",
     displayName: "Meredith Muller - Amen Clinics, Inc.",
     snippet: "80+ followers · Reston, Virginia, United States · Amen Clinics, Inc. · Meredith Muller ... View Meredith's full profile. Meredith can introduce you to 10+ people at Amen Clinics, Inc. Email or phone. Password. Show. Forgot password?Read more",
     urlLike: "LinkedIn · Meredith Muller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Reston, Virginia",
     followers: "80+",
-    imageKey: "meredith-linkedin-amen"
+    imageKey: "tanisha-linkedin-amen"
   },
   {
-    id: "meredith25",
+    id: "tanisha25",
     platform: "Dignity Memorial",
-    displayName: "Meredith Mahony-Mueller Obituary - Houston, TX",
-    snippet: "Aug 14, 2018 — Heights Funeral Home. Meredith Burrill Mahony-Mueller was born on August 23, 1969 in New Orleans, Louisiana and passed away on August 14, 2018 ...Read more",
+    displayName: "Meredith Mahony-Jefferson Obituary - Houston, TX",
+    snippet: "Aug 14, 2018 — Heights Funeral Home. Meredith Burrill Mahony-Jefferson was born on August 23, 1969 in New Orleans, Louisiana and passed away on August 14, 2018 ...Read more",
     urlLike: "www.dignitymemorial.com › obituaries › meredit...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Houston, TX",
-    imageKey: "meredith-obituary"
+    imageKey: "tanisha-obituary"
   },
   {
-    id: "meredith26",
+    id: "tanisha26",
     platform: "National Institutes of Health (NIH) | (.gov)",
     displayName: "Demonstrating unambiguous shape from polarization for ...",
-    snippet: "by L McKenna · 2025 — ... Mueller images. We formulate the … ... Authors. Lily McKenna, Meredith Kupinski. PMID: 40734140; DOI: 10.1364/OE ...Read more",
+    snippet: "by L McKenna · 2025 — ... Jefferson images. We formulate the … ... Authors. Lily McKenna, Meredith Kupinski. PMID: 40734140; DOI: 10.1364/OE ...Read more",
     urlLike: "pubmed.ncbi.nlm.nih.gov › ...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
-    imageKey: "meredith-nih"
+    imageKey: "tanisha-nih"
   },
   {
-    id: "meredith27",
+    id: "tanisha27",
     platform: "SportsRecruits",
-    displayName: "Meredith Mueller's Volleyball Recruiting Profile",
+    displayName: "Tanisha Jefferson's Volleyball Recruiting Profile",
     snippet: "Watch Meredith's recruiting video • 2020 • Opposite / Right Side • Omaha, NE.",
-    urlLike: "sportsrecruits.com › athlete › meredith_mueller",
+    urlLike: "sportsrecruits.com › athlete › tanisha_mueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Omaha, NE",
-    imageKey: "meredith-volleyball"
+    imageKey: "tanisha-volleyball"
   },
   {
-    id: "meredith28",
+    id: "tanisha28",
     platform: "National Academies of Sciences, Engineering, and Medicine",
     displayName: "Winners Selected for the TRB Airport Cooperative ...",
-    snippet: "6 days ago — Ishan Agrahar, Peyton Aversa, Evan Mueller, Jacob Reehorst, and Adon ... Their faculty advisers were Abbie Canale and Meredith Handley.Read more",
+    snippet: "6 days ago — Ishan Agrahar, Peyton Aversa, Evan Jefferson, Jacob Reehorst, and Adon ... Their faculty advisers were Abbie Canale and Meredith Handley.Read more",
     urlLike: "www.nationalacademies.org › news › winners-sel...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
-    imageKey: "meredith-academies"
+    imageKey: "tanisha-academies"
   },
   {
-    id: "meredith29",
+    id: "tanisha29",
     platform: "Flanner Buchanan",
-    displayName: "Meredith Mueller Leffel Obituary April 1, 2018",
+    displayName: "Tanisha Jefferson Leffel Obituary April 1, 2018",
     snippet: "Apr 1, 2018 — Merri & her sweet husband Jim were so much fun to be around! This is such sad news to hear & l am sending many hugs to Jim & their children!!!Read more",
     urlLike: "www.flannerbuchanan.com › obituaries › meredi...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
-    imageKey: "meredith-obituary2"
+    imageKey: "tanisha-obituary2"
   },
   {
-    id: "meredith30",
+    id: "tanisha30",
     platform: "MDPI",
     displayName: "Bioengineered Organoids Offer New Possibilities for Liver ...",
-    snippet: "by M Mueller · 2024 · Cited by 13 — She is a Professor of Anatomy and cell biology in the College of Medicine at Alfaisal University. She is the Vice Dean of Graduate Studies and Research as well as ...",
+    snippet: "by M Jefferson · 2024 · Cited by 13 — She is a Professor of Anatomy and cell biology in the College of Medicine at Alfaisal University. She is the Vice Dean of Graduate Studies and Research as well as ...",
     urlLike: "www.mdpi.com › ...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar21"
   },
   // Page 4
   {
-    id: "meredith31",
+    id: "tanisha31",
     platform: "World Bank",
     displayName: "Participant List",
-    snippet: "Oct 29, 2024 — ... DC. United States. Collins. Adomako-. Mensah. Member of Parliament,. Board ... Mueller. Ali. Executive Director. Somalia None-State Actors.",
+    snippet: "Oct 29, 2024 — ... DC. United States. Collins. Adomako-. Mensah. Member of Parliament,. Board ... Jefferson. Ali. Executive Director. Somalia None-State Actors.",
     urlLike: "www.worldbank.org › external › annualmeeting-2",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar22"
   },
   {
-    id: "meredith32",
+    id: "tanisha32",
     platform: "DC.gov",
     displayName: "DC Government Employee Listing",
-    snippet: "Mar 20, 2017 — ... Mueller. Career Service - Reg Appt. Behavior Technician. 05 ... Meredith. Career Service - Reg Appt. OFFICER. 01. 81168.000000. 3/22/2004. OSSE DOT ... 780 pages",
+    snippet: "Mar 20, 2017 — ... Jefferson. Career Service - Reg Appt. Behavior Technician. 05 ... Meredith. Career Service - Reg Appt. OFFICER. 01. 81168.000000. 3/22/2004. OSSE DOT ... 780 pages",
     urlLike: "dchr.dc.gov › dc › dchr › publication › attachments",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar23"
   },
   {
-    id: "meredith33",
+    id: "tanisha33",
     platform: "Instagram",
     displayName: "The 6th India Arab Partnership Conference organized by ...",
-    snippet: "Photo by Meredith Mueller on November 01, 2025. May be an image of one ... The past week in Washington DC at the IMF & World Bank Annual ...",
-    urlLike: "Instagram · meredithmuellerofficial",
+    snippet: "Photo by Tanisha Jefferson on November 01, 2025. May be an image of one ... The past week in Washington DC at the IMF & World Bank Annual ...",
+    urlLike: "Instagram · tanishamuellerofficial",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar24",
     followers: "210+ likes"
   },
   {
-    id: "meredith34",
+    id: "tanisha34",
     platform: "University of Rochester Medical Center",
     displayName: "Physician Name Phone Fax Street Suite City State Zip ...",
     snippet: "... MEREDITH,MUELLER E. 585-798-0286. 585-798-4584. 711 PARK AVE. STE 202A, PO BOX 516 ... DC. 20016-3622. AGRAWAL,MURLI M. 478-272-1210. 478-277-2714. 1826 VETERANS ...",
     urlLike: "www.urmc.rochester.edu › documents › SMH_Ph...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar25"
   },
   {
-    id: "meredith35",
+    id: "tanisha35",
     platform: "dcappeals.gov",
     displayName: "NOTICE OF THE July 2021 BAR EXAMINATION RESULTS ...",
-    snippet: "Nov 2, 2021 — Individuals whose names do not appear on this list should be aware that pursuant to D.C. App. ... Iman Abdulkadir Mueller. Anahita Mohtasham ...",
+    snippet: "Nov 2, 2021 — Individuals whose names do not appear on this list should be aware that pursuant to D.C. App. ... Iman Abdulkadir Jefferson. Anahita Mohtasham ...",
     urlLike: "admissions.dcappeals.gov › jul-2021-exa...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar26"
   },
   {
-    id: "meredith36",
+    id: "tanisha36",
     platform: "Facebook",
     displayName: "The past week in Washington DC at the IMF & World Bank ...",
-    snippet: "Mashallah meredith great to see u. 4mo. Profile photo of Noorul. Noorul ... Mueller Mansaray Director of search Bank of Sierra Leone, Mr.",
-    urlLike: "Facebook · Meredith Mueller",
+    snippet: "Mashallah tanisha great to see u. 4mo. Profile photo of Noorul. Noorul ... Jefferson Mansaray Director of search Bank of Sierra Leone, Mr.",
+    urlLike: "Facebook · Tanisha Jefferson",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar27",
     followers: "330+ reactions"
   },
   {
-    id: "meredith37",
+    id: "tanisha37",
     platform: "Doximity",
-    displayName: "Dr. Meredith Mueller, MD – Baltimore, MD | Internal Medicine",
-    snippet: "Dr. Meredith Mueller, MD is a board certified internist in Baltimore, Maryland. She is affiliated with MedStar Good Samaritan Hospital.",
+    displayName: "Dr. Tanisha Jefferson, MD – Baltimore, MD | Internal Medicine",
+    snippet: "Dr. Tanisha Jefferson, MD is a board certified internist in Baltimore, Maryland. She is affiliated with MedStar Good Samaritan Hospital.",
     urlLike: "www.doximity.com › ... › Maryland › Baltimore",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Baltimore, MD",
     imageKey: "avatar28"
   },
   {
-    id: "meredith38",
+    id: "tanisha38",
     platform: "Reuters",
-    displayName: "Maldives ex-VP Mueller jailed for plotting president's assassination",
-    snippet: "Mueller, 34, was arrested on Oct. 24 after an initial probe. Parliament impeached her on Nov. 5. Mueller's sentencing came a week after exiled former leader ...",
+    displayName: "Maldives ex-VP Jefferson jailed for plotting president's assassination",
+    snippet: "Jefferson, 34, was arrested on Oct. 24 after an initial probe. Parliament impeached her on Nov. 5. Jefferson's sentencing came a week after exiled former leader ...",
     urlLike: "www.reuters.com › article › world › maldives-ex...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar29"
   },
   {
-    id: "meredith39",
+    id: "tanisha39",
     platform: "The Virginia Department of Agriculture and Consumer Services (.gov)",
     displayName: "office-of-hemp-enforcement-registrations.pdf",
-    snippet: "May 20, 2025 — 23323 Mueller Musa M Alzokari samalzokari@gmail.com. 2/19/25. 2/19/26 ... DC on Wheels LLC. DC on Wheels. 8218 Seminole Trail. Ruckersville.",
+    snippet: "May 20, 2025 — 23323 Jefferson Musa M Alzokari samalzokari@gmail.com. 2/19/25. 2/19/26 ... DC on Wheels LLC. DC on Wheels. 8218 Seminole Trail. Ruckersville.",
     urlLike: "www.vdacs.virginia.gov › pdf › office-of-h...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Virginia",
     imageKey: "avatar30"
   },
   {
-    id: "meredith40",
+    id: "tanisha40",
     platform: "The Most Influential Indian Muslims of 2025",
-    displayName: "Meredith Mueller - One of the most influential ...",
-    snippet: "Meredith Mueller has been recognized as one of the most influential professionals of 2025. Her contributions to society and leadership have been highly noted ...",
-    urlLike: "www.the100indianmuslims.com › Meredith-Mueller",
+    displayName: "Tanisha Jefferson - One of the most influential ...",
+    snippet: "Tanisha Jefferson has been recognized as one of the most influential professionals of 2025. Her contributions to society and leadership have been highly noted ...",
+    urlLike: "www.the100indianmuslims.com › Meredith-Jefferson",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar31"
   },
   // Page 5
   {
-    id: "meredith41",
+    id: "tanisha41",
     platform: "Amnesty International USA",
     displayName: "Missing lawyer at risk of torture",
     snippet: "Oct 24, 2025 — Urgent action needed for missing lawyer. Reports indicate high risk of torture and ill-treatment. Amnesty International is monitoring the situation in D.C. ...",
     urlLike: "www.amnestyusa.org › uaa",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32"
   },
   {
-    id: "meredith42",
+    id: "tanisha42",
     platform: "Carleton College",
-    displayName: "Meredith Mueller - Carleton College Profile",
-    snippet: "Academic and professional profile for Meredith Mueller at Carleton College. Information on research interests, course involvement, and campus activities in Northfield, MN.",
-    urlLike: "www.carleton.edu › profiles › meredith-mueller",
+    displayName: "Tanisha Jefferson - Carleton College Profile",
+    snippet: "Academic and professional profile for Tanisha Jefferson at Carleton College. Information on research interests, course involvement, and campus activities in Northfield, MN.",
+    urlLike: "www.carleton.edu › profiles › tanisha-mueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Northfield, MN",
     imageKey: "avatar32b"
   },
   {
-    id: "meredith43",
+    id: "tanisha43",
     platform: "U.S. Department of State",
     displayName: "Official Travel and Passport Information",
     snippet: "Information regarding official travel, passport services, and international affairs. Managed by the U.S. Department of State. DC based offices providing assistance to citizens and officials.",
     urlLike: "www.state.gov › travel-information",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32c"
   },
   {
-    id: "meredith44",
+    id: "tanisha44",
     platform: "Japanese Inter Systems",
     displayName: "Japanese Inter Systems - Technology Solutions",
     snippet: "Providing cutting-edge technology and systems integration services. Japanese Inter Systems specializes in data management, software development, and international consulting.",
     urlLike: "www.japaneseintersystems.com › about",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32d"
   },
   {
-    id: "meredith45",
+    id: "tanisha45",
     platform: "Google Scholar",
-    displayName: "Meredith Mueller - Google Scholar",
-    snippet: "Citations of research papers by Meredith Mueller. Topics include medical research, nursing, and health sciences. Based in the Washington DC area.",
+    displayName: "Tanisha Jefferson - Google Scholar",
+    snippet: "Citations of research papers by Tanisha Jefferson. Topics include medical research, nursing, and health sciences. Based in the Washington DC area.",
     urlLike: "scholar.google.com › citations › user=mmueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32"
   },
   {
-    id: "meredith46",
+    id: "tanisha46",
     platform: "The Org",
-    displayName: "Meredith Mueller - Managing Director",
-    snippet: "Meredith Mueller is the Managing Director at LuLu Financial Group. View their professional profile and team at The Org.",
-    urlLike: "theorg.com › org › lulu-financial-group › meredith-mueller",
+    displayName: "Tanisha Jefferson - Managing Director",
+    snippet: "Tanisha Jefferson is the Managing Director at LuLu Financial Group. View their professional profile and team at The Org.",
+    urlLike: "theorg.com › org › lulu-financial-group › tanisha-mueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar33"
   },
   {
-    id: "meredith47",
+    id: "tanisha47",
     platform: "AHA Journals",
     displayName: "First-Line Stent Retriever Versus Contact Aspiration - PLATO",
-    snippet: "by M Mueller · 2023 — This study compares first-line stent retriever and contact aspiration in patients with large vessel occlusion stroke. Published in Stroke: Vascular and Interventional Neurology.",
+    snippet: "by M Jefferson · 2023 — This study compares first-line stent retriever and contact aspiration in patients with large vessel occlusion stroke. Published in Stroke: Vascular and Interventional Neurology.",
     urlLike: "www.ahajournals.org › abs › SVIN.123.001004",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar34"
   },
   {
-    id: "meredith48",
+    id: "tanisha48",
     platform: "Freedom House",
     displayName: "Maldives: Freedom in the World 2021 Country Report",
-    snippet: "Freedom in the World 2021 report for Maldives. Mentions of business leaders and civil society. Meredith Mueller's role in the region's economy.",
+    snippet: "Freedom in the World 2021 report for Maldives. Mentions of business leaders and civil society. Tanisha Jefferson's role in the region's economy.",
     urlLike: "freedomhouse.org › country › freedom-world › 2021",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar35"
   },
   {
-    id: "meredith49",
+    id: "tanisha49",
     platform: "Instagram",
-    displayName: "Meredith Mueller (@MeredithMuellerOfficial) • Instagram",
-    snippet: "Meredith Mueller. Entrepreneur | Philanthropist | Managing Director. Follow for updates on business and community initiatives.",
-    urlLike: "www.instagram.com › meredithmuellerofficial",
+    displayName: "Tanisha Jefferson (@MeredithJeffersonOfficial) • Instagram",
+    snippet: "Tanisha Jefferson. Entrepreneur | Philanthropist | Managing Director. Follow for updates on business and community initiatives.",
+    urlLike: "www.instagram.com › tanishamuellerofficial",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar36"
   },
   {
-    id: "meredith50",
+    id: "tanisha50",
     platform: "The George Washington University",
-    displayName: "Meredith Mueller - George Washington University",
-    snippet: "Student profile for Meredith Mueller. Pursuing studies in international relations and public policy at GWU in Washington DC.",
-    urlLike: "www.gwu.edu › student-directory › meredith-mueller",
+    displayName: "Tanisha Jefferson - George Washington University",
+    snippet: "Student profile for Tanisha Jefferson. Pursuing studies in international relations and public policy at GWU in Washington DC.",
+    urlLike: "www.gwu.edu › student-directory › tanisha-mueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar37"
   },
   {
-    id: "meredith51",
+    id: "tanisha51",
     platform: "GitHub",
-    displayName: "Meredith Mueller - Engineering Portfolio",
-    snippet: "GitHub profile for Meredith Mueller. Repositories include projects in data science, web development, and automation.",
-    urlLike: "github.com › meredithmueller",
+    displayName: "Tanisha Jefferson - Engineering Portfolio",
+    snippet: "GitHub profile for Tanisha Jefferson. Repositories include projects in data science, web development, and automation.",
+    urlLike: "github.com › tanishamueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar38"
   },
   {
-    id: "meredith52",
+    id: "tanisha52",
     platform: "Medium",
-    displayName: "Meredith Mueller - Career Path",
-    snippet: "Articles on navigating the tech industry and building a career in data science. Written by Meredith Mueller.",
-    urlLike: "medium.com › @meredithmueller › career-path",
+    displayName: "Tanisha Jefferson - Career Path",
+    snippet: "Articles on navigating the tech industry and building a career in data science. Written by Tanisha Jefferson.",
+    urlLike: "medium.com › @tanishamueller › career-path",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar39"
   },
   {
-    id: "meredith53",
+    id: "tanisha53",
     platform: "About.me",
-    displayName: "Meredith Mueller - Professional Summary",
-    snippet: "Professional summary for Meredith Mueller. Highlights of experience in project management and data analytics.",
-    urlLike: "about.me › meredithmueller",
+    displayName: "Tanisha Jefferson - Professional Summary",
+    snippet: "Professional summary for Tanisha Jefferson. Highlights of experience in project management and data analytics.",
+    urlLike: "about.me › tanishamueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar40"
   },
   {
-    id: "meredith54",
+    id: "tanisha54",
     platform: "Dev.to",
-    displayName: "Meredith Mueller - DEV Community",
+    displayName: "Tanisha Jefferson - DEV Community",
     snippet: "Articles and posts on data analytics, Python programming, and machine learning. Contributing to the developer community with tutorials and insights.",
-    urlLike: "dev.to › meredithmueller",
+    urlLike: "dev.to › tanishamueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar41"
   },
   {
-    id: "meredith55",
+    id: "tanisha55",
     platform: "Hashnode",
-    displayName: "Meredith Mueller - Hashnode Blog",
+    displayName: "Tanisha Jefferson - Hashnode Blog",
     snippet: "Technical blog on data science, analytics, and programming. Writing about machine learning, Python, SQL, and data visualization techniques.",
-    urlLike: "meredithmueller.hashnode.dev",
+    urlLike: "tanishamueller.hashnode.dev",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar42"
   },
   {
-    id: "meredith56",
+    id: "tanisha56",
     platform: "Substack",
-    displayName: "Meredith Mueller - Substack Newsletter",
+    displayName: "Tanisha Jefferson - Substack Newsletter",
     snippet: "Newsletter on data analytics and technology trends. Weekly insights on data science, machine learning, and career development in analytics.",
-    urlLike: "meredithmueller.substack.com",
+    urlLike: "tanishamueller.substack.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar43"
   },
   {
-    id: "meredith57",
+    id: "tanisha57",
     platform: "Ghost",
-    displayName: "Meredith Mueller - Ghost Blog",
+    displayName: "Tanisha Jefferson - Ghost Blog",
     snippet: "Independent blog platform sharing articles on data analytics and technology. Long-form content on data science, programming, and career insights.",
-    urlLike: "meredithmueller.ghost.io",
+    urlLike: "tanishamueller.ghost.io",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar44"
   },
   {
-    id: "meredith58",
+    id: "tanisha58",
     platform: "TinyLetter",
-    displayName: "Meredith Mueller - TinyLetter",
+    displayName: "Tanisha Jefferson - TinyLetter",
     snippet: "Email newsletter sharing thoughts on data analytics and technology. Monthly updates on data science projects, tools, and industry trends.",
-    urlLike: "tinyletter.com › meredithmueller",
+    urlLike: "tinyletter.com › tanishamueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar45"
   },
   {
-    id: "meredith59",
+    id: "tanisha59",
     platform: "Mailchimp",
-    displayName: "Meredith Mueller - Mailchimp Campaigns",
+    displayName: "Tanisha Jefferson - Mailchimp Campaigns",
     snippet: "Email marketing campaigns and newsletters on data analytics topics. Sharing resources, tutorials, and updates with subscribers interested in data science.",
-    urlLike: "mailchimp.com › campaigns › meredithmueller",
+    urlLike: "mailchimp.com › campaigns › tanishamueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar46"
   },
   {
-    id: "meredith60",
+    id: "tanisha60",
     platform: "Calendly",
-    displayName: "Meredith Mueller - Calendly",
-    snippet: "Schedule a meeting with Meredith Mueller. Available for consultations on data analytics, career advice, and data science projects. Based in Washington DC.",
-    urlLike: "calendly.com › meredithmueller",
+    displayName: "Tanisha Jefferson - Calendly",
+    snippet: "Schedule a meeting with Tanisha Jefferson. Available for consultations on data analytics, career advice, and data science projects. Based in Washington DC.",
+    urlLike: "calendly.com › tanishamueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar47"
   },
   {
-    id: "meredith61",
+    id: "tanisha61",
     platform: "Zoom",
-    displayName: "Meredith Mueller - Zoom Profile",
+    displayName: "Tanisha Jefferson - Zoom Profile",
     snippet: "Zoom profile for virtual meetings and consultations. Available for data analytics workshops, career coaching, and technology discussions.",
-    urlLike: "zoom.us › profile › meredithmueller",
+    urlLike: "zoom.us › profile › tanishamueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar48"
   },
   {
-    id: "meredith62",
+    id: "tanisha62",
     platform: "Google Sites",
-    displayName: "Meredith Mueller - Google Sites",
+    displayName: "Tanisha Jefferson - Google Sites",
     snippet: "Personal website built with Google Sites. Showcasing data analytics projects, professional experience, and contact information for Washington DC area.",
-    urlLike: "sites.google.com › view › meredithmueller",
+    urlLike: "sites.google.com › view › tanishamueller",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar49"
   },
   {
-    id: "meredith63",
+    id: "tanisha63",
     platform: "Weebly",
-    displayName: "Meredith Mueller - Weebly Site",
+    displayName: "Tanisha Jefferson - Weebly Site",
     snippet: "Professional website created with Weebly. Portfolio of data analytics projects, services offered, and professional background. Washington DC based professional.",
-    urlLike: "meredithmueller.weebly.com",
+    urlLike: "tanishamueller.weebly.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar50"
   }
@@ -3056,7 +3056,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "en.wikipedia.org › wiki › Brycen_Tremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington",
     imageKey: "tremayne-wikipedia"
   },
@@ -3068,7 +3068,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.panthers.com › team › players-roster › bry...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-panthers"
   },
@@ -3080,7 +3080,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.espn.com › nfl › player › bio › brycen-tre...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-espn"
   },
@@ -3092,7 +3092,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "washington.1rmg.com › player › brycen-tremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington",
     imageKey: "tremayne-commanders"
   },
@@ -3104,7 +3104,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "X · Tremayne_wash",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     followers: "270+",
     imageKey: "tremayne-x"
@@ -3117,7 +3117,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "ripped.topps.com › profile › nfl › brycen-tremay...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-topps"
   },
@@ -3129,7 +3129,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "Facebook · Savannah River Nuclear Solutions, LLC",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-facebook"
   },
@@ -3141,7 +3141,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "Instagram · srnsolutions",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-insta"
   },
@@ -3153,7 +3153,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.spotrac.com › nfl › player › bryce-tremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-spotrac"
   },
@@ -3165,7 +3165,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "roaminghunger.com › tremayne-the-chameleon-dc",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "tremayne-food"
   },
@@ -3178,7 +3178,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "LinkedIn · Tremayne Washington",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Atlanta, Georgia",
     followers: "3",
     imageKey: "tremayne-linkedin"
@@ -3191,7 +3191,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.law.gwu.edu › tremayne-bunaugh",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-law"
   },
@@ -3203,7 +3203,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.nfl.com › videos › brycen-tremayne-finds-...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-nfl"
   },
@@ -3215,7 +3215,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "law.justia.com › south-carolina › court-of-appeals",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "South Carolina",
     imageKey: "tremayne-justia"
   },
@@ -3227,7 +3227,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "Reddit · r/Commanders",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-reddit"
   },
@@ -3239,7 +3239,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.facebook.com › tremayne.washington.9",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-facebook2"
   },
@@ -3251,7 +3251,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.justice.gov › usao-dc › former-federal-gov...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Waldorf, Maryland",
     imageKey: "tremayne-doj"
   },
@@ -3263,7 +3263,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.legistorm.com › person › bio › Tremayne_B...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-legistorm"
   },
@@ -3275,7 +3275,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "wsucougars.com › sports › football › roster › tre...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "tremayne-wsu"
   },
@@ -3287,7 +3287,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.mdpi.com › ...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar21"
   },
@@ -3300,7 +3300,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.worldbank.org › external › annualmeeting-2",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar22"
   },
@@ -3312,7 +3312,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "dchr.dc.gov › dc › dchr › publication › attachments",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar23"
   },
@@ -3324,7 +3324,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "Instagram · brycentremayneofficial",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar24",
     followers: "210+ likes"
@@ -3337,7 +3337,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.urmc.rochester.edu › documents › SMH_Ph...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar25"
   },
@@ -3349,7 +3349,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "admissions.dcappeals.gov › jul-2021-exa...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar26"
   },
@@ -3361,7 +3361,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "Facebook · Brycen Tremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar27",
     followers: "330+ reactions"
@@ -3374,7 +3374,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.doximity.com › ... › Maryland › Baltimore",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Baltimore, MD",
     imageKey: "avatar28"
   },
@@ -3386,7 +3386,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.reuters.com › article › world › maldives-ex...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar29"
   },
@@ -3398,7 +3398,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.vdacs.virginia.gov › pdf › office-of-h...",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Virginia",
     imageKey: "avatar30"
   },
@@ -3410,7 +3410,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.the100indianmuslims.com › Brycen-Tremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar31"
   },
@@ -3423,7 +3423,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.amnestyusa.org › uaa",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32"
   },
@@ -3435,7 +3435,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.carleton.edu › profiles › brycen-tremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Northfield, MN",
     imageKey: "avatar32b"
   },
@@ -3447,7 +3447,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.state.gov › travel-information",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32c"
   },
@@ -3459,7 +3459,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.japaneseintersystems.com › about",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32d"
   },
@@ -3471,7 +3471,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "scholar.google.com › citations › user=btremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar32"
   },
@@ -3483,7 +3483,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "theorg.com › org › lulu-financial-group › brycen-tremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar33"
   },
@@ -3495,7 +3495,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.ahajournals.org › abs › SVIN.123.001004",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar34"
   },
@@ -3507,7 +3507,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "freedomhouse.org › country › freedom-world › 2021",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "",
     imageKey: "avatar35"
   },
@@ -3519,7 +3519,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.instagram.com › brycentremayneofficial",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar36"
   },
@@ -3531,7 +3531,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "www.gwu.edu › student-directory › brycen-tremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar37"
   },
@@ -3543,7 +3543,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "github.com › brycentremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar38"
   },
@@ -3555,7 +3555,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "medium.com › @brycentremayne › career-path",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar39"
   },
@@ -3567,7 +3567,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "about.me › brycentremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar40"
   },
@@ -3580,7 +3580,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "dev.to › brycentremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar41"
   },
@@ -3592,7 +3592,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "brycentremayne.hashnode.dev",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar42"
   },
@@ -3604,7 +3604,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "brycentremayne.substack.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar43"
   },
@@ -3616,7 +3616,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "brycentremayne.ghost.io",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar44"
   },
@@ -3628,7 +3628,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "tinyletter.com › brycentremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar45"
   },
@@ -3640,7 +3640,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "mailchimp.com › campaigns › brycentremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar46"
   },
@@ -3652,7 +3652,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "calendly.com › brycentremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar47"
   },
@@ -3664,7 +3664,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "zoom.us › profile › brycentremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar48"
   },
@@ -3676,7 +3676,7 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "sites.google.com › view › brycentremayne",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar49"
   },
@@ -3688,751 +3688,9 @@ export const RESULTS_Brycen_Tremayne: SimResult[] = [
     urlLike: "brycentremayne.weebly.com",
     discoverability: "High",
     footprint: "Present",
-    race: "White American",
+    race: "African American",
     location: "Washington, DC",
     imageKey: "avatar50"
   }
 ];
 
-export const RESULTS_Tanisha_Jefferson: SimResult[] = [
-  // Page 1
-  {
-    id: "tanisha1",
-    platform: "LinkedIn",
-    displayName: "Tanisha Jefferson",
-    snippet: "110+ followers · A detail-oriented Administrative Assistant seeking an Administrative Support position to capitalize on professional experience and proven ability to improve ...",
-    urlLike: "LinkedIn · Tanisha Jefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    followers: "110+",
-    imageKey: "tanisha-linkedin"
-  },
-  {
-    id: "tanisha2",
-    platform: "Instagram",
-    displayName: "tanisha.jefferson.9",
-    snippet: "960+ followers · I'm a hard working mom, college student and I'm a YouTuber, my YouTube channel is called \"Cooking with Tanisha\" · Photo by Tanisha Jefferson on July 27, 2024.Read more",
-    urlLike: "Instagram · tanisha.jefferson.9",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    followers: "960+",
-    imageKey: "tanisha-insta"
-  },
-  {
-    id: "tanisha3",
-    platform: "Facebook",
-    displayName: "Tanisha Jefferson",
-    snippet: "6K+ followers · Tanisha Jefferson. 5973 likes · 3 talking about this. Proud autism mom, QMA, Social Worker and YouTuber: Cooking with Tanisha, Insta tanisha.Jefferson.9.",
-    urlLike: "Facebook · Tanisha Jefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    followers: "6K+",
-    imageKey: "tanisha-facebook"
-  },
-  {
-    id: "tanisha4",
-    platform: "TeachDFW",
-    displayName: "From Langston to the World",
-    snippet: "From Langston to the World. Ta-Tanisha Jefferson discusses her journey from struggling at school to thriving at college and in the classroom.Read more",
-    urlLike: "dallasftworth.teach.org › articles › langston-world",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "tanisha-teach"
-  },
-  {
-    id: "tanisha5",
-    platform: "LinkedIn",
-    displayName: "10+ \"Tanisha Jefferson\" profiles",
-    snippet: "10+Results for \"Tanisha Jefferson\". Tanisha J. Healthcare Operations Leader | Customer Success Manager | Remote Team Strategist | Patient Experience Advocate | ...Read more",
-    urlLike: "www.linkedin.com › pub › dir › Jefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "tanisha-linkedin-dir"
-  },
-  {
-    id: "tanisha6",
-    platform: "VR Nevada (.gov)",
-    displayName: "Tanisha Jefferson Accounting Assist I - VR Nevada",
-    snippet: "She is dedicated, hardworking and creative. Tanisha is a real asset to the agency and recognized as the June 2025 Employee of the Month ...Read more",
-    urlLike: "vrnevada.nv.gov › Projects",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Nevada",
-    imageKey: "tanisha-nevada"
-  },
-  {
-    id: "tanisha7",
-    platform: "CNN",
-    displayName: "Lawsuits: Alabama prisoners died of gangrene, constipation",
-    snippet: "Oct 28, 2014 — The families of Nikki Listau, left, Deundrez Woods, center, and Tanisha Jefferson are suing an Alabama jail over their deaths.Read more",
-    urlLike: "www.cnn.com › 2014/10/28 › alabama-gangren...",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Alabama",
-    imageKey: "tanisha-cnn"
-  },
-  {
-    id: "tanisha8",
-    platform: "Facebook",
-    displayName: "Tanisha Jefferson in people",
-    snippet: "View the profiles of people named Tanisha Jefferson. Join Facebook to connect with Tanisha Jefferson and others you may know. Facebook gives people the...",
-    urlLike: "www.facebook.com › public › Tanisha-Jefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "tanisha-facebook2"
-  },
-  {
-    id: "tanisha9",
-    platform: "X",
-    displayName: "Ta-Tanisha Jefferson (@TaTanishaJeffe3) / Posts / X",
-    snippet: "310+ followers · @tmebulldogs staff vs. 6th graders in a friendly game of kickball! It was a fast and furious about of running, kicking, laughing and togetherness.Read more",
-    urlLike: "X · TaTanishaJeffe3",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    followers: "310+",
-    imageKey: "tanisha-x"
-  },
-  {
-    id: "tanisha10",
-    platform: "InsideNoVa.com",
-    displayName: "Prince William supervisors defer Belmont Bay, Hornbaker ...",
-    snippet: "1 day ago — \"We are required, by law, to move forward with land use cases,\" Jefferson said. \"It was tough to proceed with such cases following the loss of [ ...Read more",
-    urlLike: "www.insidenova.com › news › prince-william-su...",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "tanisha-insidenova"
-  },
-  // Page 2
-  {
-    id: "tanisha11",
-    platform: "Kentucky Court of Justice (.gov)",
-    displayName: "Jefferson - Kentucky Court of Justice",
-    snippet: "Official portrait of Judge Tanisha A. Hickerson. 930. Tanisha A. Hickerson. JudgeDistrict Court. 30th Judicial District Division 9. Official portrait of Judge ...Read more",
-    urlLike: "kycourts.gov › Courts › Jefferson › Pages › Jeffe...",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "tanisha-court"
-  },
-  {
-    id: "tanisha12",
-    platform: "AL.com",
-    displayName: "19-year-old dies naked on cell floor of gangrene; lawsuits ...",
-    snippet: "Oct 17, 2014 — 31, 2013. That suit, also filed this week, contends she had been constipated for 13 days, denied medical care and left untreated. Jefferson was ...Read more",
-    urlLike: "www.al.com › gangrene_and_broken_bones_kill",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "tanisha-al"
-  },
-  {
-    id: "tanisha13",
-    platform: "Pinterest",
-    displayName: "Tanisha Jefferson (tanisha_jeffers) - Profile",
-    snippet: "See what Tanisha Jefferson (tanisha_jeffers) has discovered on Pinterest, the world's biggest collection of ideas.",
-    urlLike: "www.pinterest.com › tanisha_jeffers",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "tanisha-pinterest"
-  },
-  {
-    id: "tanisha14",
-    platform: "jeffersontrojansdc.org",
-    displayName: "Jefferson Academy Staff Directory",
-    snippet: "PDF · Tanisha Smith. Custodian. Tanisha.smith@k12.dc.gov. Crystal Stewart. Instructional Aide (7th and 8th grade). Crystal.stewart@k12.dc.gov. Amber Terry. Project ...Read more",
-    urlLike: "www.jeffersontrojansdc.org › cms › One",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "tanisha-academy"
-  },
-  {
-    id: "tanisha15",
-    platform: "Royal Funeral Home, Inc.",
-    displayName: "Obituary Guestbook | Miss Tanisha Rayshell Jefferson ...",
-    snippet: "View The Guestbook For Miss Tanisha Rayshell Jefferson, b.k.a. \"Packy\". Please join us in Loving, Sharing and Memorializing Miss Tanisha Rayshell Jefferson, ...Read more",
-    urlLike: "www.royalfh.com › guestbook",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "tanisha-obituary"
-  },
-  {
-    id: "tanisha16",
-    platform: "WAFF",
-    displayName: "Metro jail inmate dies in custody - Huntsville",
-    snippet: "Nov 4, 2013 — Tanisha Jefferson died on Oct. 31. Jefferson was an inmate at ...Read more",
-    urlLike: "www.waff.com › story › metro-jail-inmate-dies-i...",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Huntsville",
-    imageKey: "tanisha-waff"
-  },
-  {
-    id: "tanisha17",
-    platform: "Spotify",
-    displayName: "You Deserve All the Praise (Live)",
-    snippet: "Listen to You Deserve All the Praise (Live) on Spotify. Song · Charles Jenkins & Fellowship Chicago, Tanisha Jefferson · 2015.",
-    urlLike: "open.spotify.com › track",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "tanisha-spotify"
-  },
-  {
-    id: "tanisha18",
-    platform: "Thomas Jefferson University",
-    displayName: "Fall 2021",
-    snippet: "She has also worked in South America as a pediatric OT and has worked independently, assisting a client with locked-in syndrome with relocating and ...Read more",
-    urlLike: "www.jefferson.edu › fall-newsletter-2021",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "tanisha-jefferson-uni"
-  },
-  {
-    id: "tanisha19",
-    platform: "MDPI",
-    displayName: "Bioengineered Organoids Offer New Possibilities for Liver ...",
-    snippet: "by T Jefferson · 2024 · Cited by 13 — She is a Professor of Anatomy and cell biology in the College of Medicine at Alfaisal University. She is the Vice Dean of Graduate Studies and Research as well as ...",
-    urlLike: "www.mdpi.com › ...",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "avatar21"
-  },
-  {
-    id: "tanisha20",
-    platform: "World Bank",
-    displayName: "Participant List",
-    snippet: "Oct 29, 2024 — ... DC. United States. Collins. Adomako-. Mensah. Member of Parliament,. Board ... Jefferson. Ali. Executive Director. Somalia None-State Actors.",
-    urlLike: "www.worldbank.org › external › annualmeeting-2",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar22"
-  },
-  // Page 3
-  {
-    id: "tanisha21",
-    platform: "DC.gov",
-    displayName: "DC Government Employee Listing",
-    snippet: "Mar 20, 2017 — ... Jefferson. Career Service - Reg Appt. Behavior Technician. 05 ... Tanisha. Career Service - Reg Appt. OFFICER. 01. 81168.000000. 3/22/2004. OSSE DOT ... 780 pages",
-    urlLike: "dchr.dc.gov › dc › dchr › publication › attachments",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar23"
-  },
-  {
-    id: "tanisha22",
-    platform: "Instagram",
-    displayName: "The 6th India Arab Partnership Conference organized by ...",
-    snippet: "Photo by Tanisha Jefferson on November 01, 2025. May be an image of one ... The past week in Washington DC at the IMF & World Bank Annual ...",
-    urlLike: "Instagram · tanishajeffersonofficial",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "avatar24",
-    followers: "210+ likes"
-  },
-  {
-    id: "tanisha23",
-    platform: "University of Rochester Medical Center",
-    displayName: "Physician Name Phone Fax Street Suite City State Zip ...",
-    snippet: "... TANISHA,JEFFERSON E. 585-798-0286. 585-798-4584. 711 PARK AVE. STE 202A, PO BOX 516 ... DC. 20016-3622. AGRAWAL,MURLI M. 478-272-1210. 478-277-2714. 1826 VETERANS ...",
-    urlLike: "www.urmc.rochester.edu › documents › SMH_Ph...",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "avatar25"
-  },
-  {
-    id: "tanisha24",
-    platform: "dcappeals.gov",
-    displayName: "NOTICE OF THE July 2021 BAR EXAMINATION RESULTS ...",
-    snippet: "Nov 2, 2021 — Individuals whose names do not appear on this list should be aware that pursuant to D.C. App. ... Iman Abdulkadir Jefferson. Anahita Mohtasham ...",
-    urlLike: "admissions.dcappeals.gov › jul-2021-exa...",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar26"
-  },
-  {
-    id: "tanisha25",
-    platform: "Facebook",
-    displayName: "The past week in Washington DC at the IMF & World Bank ...",
-    snippet: "Mashallah tanisha great to see u. 4mo. Profile photo of Noorul. Noorul ... Jefferson Mansaray Director of search Bank of Sierra Leone, Mr.",
-    urlLike: "Facebook · Tanisha Jefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar27",
-    followers: "330+ reactions"
-  },
-  {
-    id: "tanisha26",
-    platform: "Doximity",
-    displayName: "Dr. Tanisha Jefferson, MD – Baltimore, MD | Internal Medicine",
-    snippet: "Dr. Tanisha Jefferson, MD is a board certified internist in Baltimore, Maryland. She is affiliated with MedStar Good Samaritan Hospital.",
-    urlLike: "www.doximity.com › ... › Maryland › Baltimore",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Baltimore, MD",
-    imageKey: "avatar28"
-  },
-  {
-    id: "tanisha27",
-    platform: "Reuters",
-    displayName: "Maldives ex-VP Jefferson jailed for plotting president's assassination",
-    snippet: "Jefferson, 34, was arrested on Oct. 24 after an initial probe. Parliament impeached her on Nov. 5. Jefferson's sentencing came a week after exiled former leader ...",
-    urlLike: "www.reuters.com › article › world › maldives-ex...",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "avatar29"
-  },
-  {
-    id: "tanisha28",
-    platform: "The Virginia Department of Agriculture and Consumer Services (.gov)",
-    displayName: "office-of-hemp-enforcement-registrations.pdf",
-    snippet: "May 20, 2025 — 23323 Jefferson Musa M Alzokari samalzokari@gmail.com. 2/19/25. 2/19/26 ... DC on Wheels LLC. DC on Wheels. 8218 Seminole Trail. Ruckersville.",
-    urlLike: "www.vdacs.virginia.gov › pdf › office-of-h...",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Virginia",
-    imageKey: "avatar30"
-  },
-  {
-    id: "tanisha29",
-    platform: "The Most Influential Indian Muslims of 2025",
-    displayName: "Tanisha Jefferson - One of the most influential ...",
-    snippet: "Tanisha Jefferson has been recognized as one of the most influential professionals of 2025. Her contributions to society and leadership have been highly noted ...",
-    urlLike: "www.the100indianmuslims.com › Tanisha-Jefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "avatar31"
-  },
-  {
-    id: "tanisha30",
-    platform: "Amnesty International USA",
-    displayName: "Missing lawyer at risk of torture",
-    snippet: "Oct 24, 2025 — Urgent action needed for missing lawyer. Reports indicate high risk of torture and ill-treatment. Amnesty International is monitoring the situation in D.C. ...",
-    urlLike: "www.amnestyusa.org › uaa",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar32"
-  },
-  // Page 4
-  {
-    id: "tanisha31",
-    platform: "Carleton College",
-    displayName: "Tanisha Jefferson - Carleton College Profile",
-    snippet: "Academic and professional profile for Tanisha Jefferson at Carleton College. Information on research interests, course involvement, and campus activities in Northfield, MN.",
-    urlLike: "www.carleton.edu › profiles › tanisha-jefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Northfield, MN",
-    imageKey: "avatar32b"
-  },
-  {
-    id: "tanisha32",
-    platform: "U.S. Department of State",
-    displayName: "Official Travel and Passport Information",
-    snippet: "Information regarding official travel, passport services, and international affairs. Managed by the U.S. Department of State. DC based offices providing assistance to citizens and officials.",
-    urlLike: "www.state.gov › travel-information",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar32c"
-  },
-  {
-    id: "tanisha33",
-    platform: "Japanese Inter Systems",
-    displayName: "Japanese Inter Systems - Technology Solutions",
-    snippet: "Providing cutting-edge technology and systems integration services. Japanese Inter Systems specializes in data management, software development, and international consulting.",
-    urlLike: "www.japaneseintersystems.com › about",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar32d"
-  },
-  {
-    id: "tanisha34",
-    platform: "Google Scholar",
-    displayName: "Tanisha Jefferson - Google Scholar",
-    snippet: "Citations of research papers by Tanisha Jefferson. Topics include social work, healthcare, and public policy. Based in the Washington DC area.",
-    urlLike: "scholar.google.com › citations › user=tjefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar32"
-  },
-  {
-    id: "tanisha35",
-    platform: "The Org",
-    displayName: "Tanisha Jefferson - Managing Director",
-    snippet: "Tanisha Jefferson is the Managing Director at LuLu Financial Group. View their professional profile and team at The Org.",
-    urlLike: "theorg.com › org › lulu-financial-group › tanisha-jefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar33"
-  },
-  {
-    id: "tanisha36",
-    platform: "AHA Journals",
-    displayName: "First-Line Stent Retriever Versus Contact Aspiration - PLATO",
-    snippet: "by T Jefferson · 2023 — This study compares first-line stent retriever and contact aspiration in patients with large vessel occlusion stroke. Published in Stroke: Vascular and Interventional Neurology.",
-    urlLike: "www.ahajournals.org › abs › SVIN.123.001004",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "avatar34"
-  },
-  {
-    id: "tanisha37",
-    platform: "Freedom House",
-    displayName: "Maldives: Freedom in the World 2021 Country Report",
-    snippet: "Freedom in the World 2021 report for Maldives. Mentions of business leaders and civil society. Tanisha Jefferson's role in the region's economy.",
-    urlLike: "freedomhouse.org › country › freedom-world › 2021",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "",
-    imageKey: "avatar35"
-  },
-  {
-    id: "tanisha38",
-    platform: "Instagram",
-    displayName: "Tanisha Jefferson (@TanishaJeffersonOfficial) • Instagram",
-    snippet: "Tanisha Jefferson. Entrepreneur | Philanthropist | Managing Director. Follow for updates on business and community initiatives.",
-    urlLike: "www.instagram.com › tanishajeffersonofficial",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar36"
-  },
-  {
-    id: "tanisha39",
-    platform: "The George Washington University",
-    displayName: "Tanisha Jefferson - George Washington University",
-    snippet: "Student profile for Tanisha Jefferson. Pursuing studies in international relations and public policy at GWU in Washington DC.",
-    urlLike: "www.gwu.edu › student-directory › tanisha-jefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar37"
-  },
-  {
-    id: "tanisha40",
-    platform: "GitHub",
-    displayName: "Tanisha Jefferson - Engineering Portfolio",
-    snippet: "GitHub profile for Tanisha Jefferson. Repositories include projects in data science, web development, and automation.",
-    urlLike: "github.com › tanishajefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar38"
-  },
-  {
-    id: "tanisha41",
-    platform: "Medium",
-    displayName: "Tanisha Jefferson - Career Path",
-    snippet: "Articles on navigating the tech industry and building a career in data science. Written by Tanisha Jefferson.",
-    urlLike: "medium.com › @tanishajefferson › career-path",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar39"
-  },
-  {
-    id: "tanisha42",
-    platform: "About.me",
-    displayName: "Tanisha Jefferson - Professional Summary",
-    snippet: "Professional summary for Tanisha Jefferson. Highlights of experience in project management and data analytics.",
-    urlLike: "about.me › tanishajefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar40"
-  },
-  // Page 5
-  {
-    id: "tanisha43",
-    platform: "Dev.to",
-    displayName: "Tanisha Jefferson - DEV Community",
-    snippet: "Articles and posts on data analytics, Python programming, and machine learning. Contributing to the developer community with tutorials and insights.",
-    urlLike: "dev.to › tanishajefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar41"
-  },
-  {
-    id: "tanisha44",
-    platform: "Hashnode",
-    displayName: "Tanisha Jefferson - Hashnode Blog",
-    snippet: "Technical blog on data science, analytics, and programming. Writing about machine learning, Python, SQL, and data visualization techniques.",
-    urlLike: "tanishajefferson.hashnode.dev",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar42"
-  },
-  {
-    id: "tanisha45",
-    platform: "Substack",
-    displayName: "Tanisha Jefferson - Substack Newsletter",
-    snippet: "Newsletter on data analytics and technology trends. Weekly insights on data science, machine learning, and career development in analytics.",
-    urlLike: "tanishajefferson.substack.com",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar43"
-  },
-  {
-    id: "tanisha46",
-    platform: "Ghost",
-    displayName: "Tanisha Jefferson - Ghost Blog",
-    snippet: "Independent blog platform sharing articles on data analytics and technology. Long-form content on data science, programming, and career insights.",
-    urlLike: "tanishajefferson.ghost.io",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar44"
-  },
-  {
-    id: "tanisha47",
-    platform: "TinyLetter",
-    displayName: "Tanisha Jefferson - TinyLetter",
-    snippet: "Email newsletter sharing thoughts on data analytics and technology. Monthly updates on data science projects, tools, and industry trends.",
-    urlLike: "tinyletter.com › tanishajefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar45"
-  },
-  {
-    id: "tanisha48",
-    platform: "Mailchimp",
-    displayName: "Tanisha Jefferson - Mailchimp Campaigns",
-    snippet: "Email marketing campaigns and newsletters on data analytics topics. Sharing resources, tutorials, and updates with subscribers interested in data science.",
-    urlLike: "mailchimp.com › campaigns › tanishajefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar46"
-  },
-  {
-    id: "tanisha49",
-    platform: "Calendly",
-    displayName: "Tanisha Jefferson - Calendly",
-    snippet: "Schedule a meeting with Tanisha Jefferson. Available for consultations on data analytics, career advice, and data science projects. Based in Washington DC.",
-    urlLike: "calendly.com › tanishajefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar47"
-  },
-  {
-    id: "tanisha50",
-    platform: "Zoom",
-    displayName: "Tanisha Jefferson - Zoom Profile",
-    snippet: "Zoom profile for virtual meetings and consultations. Available for data analytics workshops, career coaching, and technology discussions.",
-    urlLike: "zoom.us › profile › tanishajefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar48"
-  },
-  {
-    id: "tanisha51",
-    platform: "Google Sites",
-    displayName: "Tanisha Jefferson - Google Sites",
-    snippet: "Personal website built with Google Sites. Showcasing data analytics projects, professional experience, and contact information for Washington DC area.",
-    urlLike: "sites.google.com › view › tanishajefferson",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar49"
-  },
-  {
-    id: "tanisha52",
-    platform: "Weebly",
-    displayName: "Tanisha Jefferson - Weebly Site",
-    snippet: "Professional website created with Weebly. Portfolio of data analytics projects, services offered, and professional background. Washington DC based professional.",
-    urlLike: "tanishajefferson.weebly.com",
-    discoverability: "High",
-    footprint: "Present",
-    race: "White American",
-    location: "Washington, DC",
-    imageKey: "avatar50"
-  }
-];
-
-// COMMON name with many vague results, none clearly related
-// Scrollable "noise" page simulating common-name search clutter
-export const RESULTS_Low_Absent: SimResult[] = [
-  {
-    id: "la1",
-    platform: "LinkedIn",
-    displayName: "Michael Johnson", // ### PLACEHOLDER: Common name
-    snippet: "Possible match - limited profile information available. Location unknown.",
-    urlLike: "linkedin.com/pub/m-johnson/xyz",
-    discoverability: "Low",
-    footprint: "Absent",
-    race: "White American", // ### PLACEHOLDER
-    imageKey: "avatar1"
-  },
-  {
-    id: "la2",
-    platform: "Facebook",
-    displayName: "M. Johnson", // ### PLACEHOLDER: Vague match
-    snippet: "Profile may match. Limited public information visible. No location or workplace listed.",
-    urlLike: "facebook.com/profile.php?id=12345",
-    discoverability: "Low",
-    footprint: "Absent",
-    race: "White American", // ### PLACEHOLDER
-    imageKey: "avatar2"
-  },
-  {
-    id: "la3",
-    platform: "LinkedIn",
-    displayName: "Mike Johnson", // ### PLACEHOLDER: Similar name, unclear
-    snippet: "Incomplete profile. May be related to search query. Very little information available.",
-    urlLike: "linkedin.com/in/mike-johnson-abc",
-    discoverability: "Low",
-    footprint: "Absent",
-    race: "White American", // ### PLACEHOLDER
-    imageKey: "avatar3"
-  },
-  {
-    id: "la4",
-    platform: "Facebook",
-    displayName: "Michael J.", // ### PLACEHOLDER: Partial name match
-    snippet: "Private profile or minimal public content. Cannot verify if this is the correct person.",
-    urlLike: "facebook.com/michael.j.profile",
-    discoverability: "Low",
-    footprint: "Absent",
-    race: "White American", // ### PLACEHOLDER
-    imageKey: "avatar4"
-  },
-  {
-    id: "la5",
-    platform: "Instagram",
-    displayName: "m_johnson_", // ### PLACEHOLDER: Username only
-    snippet: "Private account or minimal public content. Possible match but cannot confirm identity.",
-    urlLike: "instagram.com/m_johnson_",
-    discoverability: "Low",
-    footprint: "Absent",
-    race: "White American", // ### PLACEHOLDER
-    imageKey: "avatar5"
-  },
-  {
-    id: "la6",
-    platform: "LinkedIn",
-    displayName: "M. J. Johnson", // ### PLACEHOLDER: Initials, vague
-    snippet: "Profile exists but contains very little information. Location and employment history not available.",
-    urlLike: "linkedin.com/in/m-j-johnson-xyz",
-    discoverability: "Low",
-    footprint: "Absent",
-    race: "White American", // ### PLACEHOLDER
-    imageKey: "avatar6"
-  },
-  {
-    id: "la7",
-    platform: "Facebook",
-    displayName: "Michael Johnson", // ### PLACEHOLDER: Common name, no details
-    snippet: "Account found but profile is mostly private. No public posts or information to verify identity.",
-    urlLike: "facebook.com/michael.johnson.private",
-    discoverability: "Low",
-    footprint: "Absent",
-    race: "White American", // ### PLACEHOLDER
-    imageKey: "avatar7"
-  },
-  {
-    id: "la8",
-    platform: "Instagram",
-    displayName: "mjohnson123", // ### PLACEHOLDER: Generic username
-    snippet: "Account may be related but username is generic. No clear connection to search query.",
-    urlLike: "instagram.com/mjohnson123",
-    discoverability: "Low",
-    footprint: "Absent",
-    race: "White American", // ### PLACEHOLDER
-    imageKey: "avatar8"
-  }
-];
-
-export const RESULTS = {
-  High_Present: RESULTS_High_Present,
-  High_Absent: RESULTS_High_Absent,
-  Low_Present: RESULTS_Low_Present,
-  Low_Absent: RESULTS_Low_Absent,
-  Adeeb_Present: RESULTS_Adeeb_Present,
-  Greg_Krieger: RESULTS_Greg_Krieger,
-  Meredith_Mueller: RESULTS_Meredith_Mueller,
-  Brycen_Tremayne: RESULTS_Brycen_Tremayne,
-  Tanisha_Jefferson: RESULTS_Tanisha_Jefferson,
-};

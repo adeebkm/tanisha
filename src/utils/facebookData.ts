@@ -151,16 +151,16 @@ export const generateFacebookProfile = (resultId: string): FacebookProfileData =
     };
   }
 
-  // Meredith Mueller - Financial Analyst (Hiking, brunch, pets)
-  if (resultId === 'meredith2' || resultId.includes('meredith')) {
+  // Tanisha Jefferson - Financial Analyst (Hiking, brunch, pets)
+  if (resultId === 'tanisha2' || resultId.includes('tanisha')) {
     return {
-      name: 'Meredith Mueller',
+      name: 'Tanisha Jefferson',
       friends: '380 friends',
       photos: 142,
       posts: [
         {
-          author: 'Meredith Mueller',
-          authorAvatar: 'meredith-avatar',
+          author: 'Tanisha Jefferson',
+          authorAvatar: 'tanisha-avatar',
           time: '2d',
           content: 'Sunday brunch with the best crew! 🥐☕ Nothing beats good food and great conversation.',
           likes: 112,
@@ -169,8 +169,8 @@ export const generateFacebookProfile = (resultId: string): FacebookProfileData =
           image: 'brunch'
         },
         {
-          author: 'Meredith Mueller',
-          authorAvatar: 'meredith-avatar',
+          author: 'Tanisha Jefferson',
+          authorAvatar: 'tanisha-avatar',
           time: '5d',
           content: 'Morning hike at Starved Rock State Park. The fall colors are absolutely stunning! Nature never fails to recharge me.',
           likes: 156,
@@ -179,8 +179,8 @@ export const generateFacebookProfile = (resultId: string): FacebookProfileData =
           image: 'hiking'
         },
         {
-          author: 'Meredith Mueller',
-          authorAvatar: 'meredith-avatar',
+          author: 'Tanisha Jefferson',
+          authorAvatar: 'tanisha-avatar',
           time: '1w',
           content: 'My little fur baby being adorable as always. How can you resist that face? 🐕',
           likes: 203,
