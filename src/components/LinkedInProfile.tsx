@@ -114,7 +114,7 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
         }}>
           <div style={{ maxWidth: '1128px', margin: '0 auto', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 24px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '32px', height: '32px', borderRadius: '50%' }} alt="" />
+              <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '32px', height: '32px', borderRadius: '50%', filter: 'blur(4px)' }} alt="" />
               <div>
                 <div style={{ fontSize: '14px', fontWeight: 600 }}>{profile.name}</div>
                 <div style={{ fontSize: '12px', color: '#666', maxWidth: '400px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{profile.headline}</div>
@@ -138,7 +138,7 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
             <div style={{ padding: '0 24px 24px', position: 'relative' }}>
               <div style={{ marginTop: '-112px', marginBottom: '16px' }}>
                 <div style={{ position: 'relative', width: '160px', height: '160px' }}>
-                  <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '100%', height: '100%', borderRadius: '50%', border: '4px solid white', objectFit: 'cover' }} alt="" />
+                  <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '100%', height: '100%', borderRadius: '50%', border: '4px solid white', objectFit: 'cover', filter: 'blur(8px)' }} alt="" />
                   {isAdeeb && (
                     <div style={{ 
                       position: 'absolute', 
@@ -255,7 +255,7 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
                   <div style={{ padding: '12px' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
                       <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
-                        <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '32px', height: '32px', borderRadius: '50%' }} alt="" />
+                        <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '32px', height: '32px', borderRadius: '50%', filter: 'blur(4px)' }} alt="" />
                         <div>
                           <div style={{ fontSize: '12px', fontWeight: 600 }}>{profile.name} <span style={{ color: '#666', fontWeight: 400 }}>· 3rd+</span></div>
                           <div style={{ fontSize: '10px', color: '#666' }}>Graduate Research Assistant @ Georg...</div>
@@ -418,14 +418,14 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
               <div>
                 <div style={{ fontSize: '16px', fontWeight: 600 }}>Graphic Design</div>
                 <div style={{ fontSize: '14px', display: 'flex', alignItems: 'center', gap: '8px', marginTop: '4px' }}>
-                  <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '24px', height: '24px', borderRadius: '50%' }} alt="" />
+                  <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '24px', height: '24px', borderRadius: '50%', filter: 'blur(3px)' }} alt="" />
                   Snapchat Opinion Leader at Under 25
                 </div>
               </div>
               <div style={{ borderTop: '1px solid #e0e0e0', paddingTop: '16px' }}>
                 <div style={{ fontSize: '16px', fontWeight: 600 }}>Augmented Reality (AR)</div>
                 <div style={{ fontSize: '14px', display: 'flex', alignItems: 'center', gap: '8px', marginTop: '4px' }}>
-                  <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '24px', height: '24px', borderRadius: '50%' }} alt="" />
+                  <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '24px', height: '24px', borderRadius: '50%', filter: 'blur(3px)' }} alt="" />
                   Snapchat Opinion Leader at Under 25
                 </div>
               </div>
@@ -481,7 +481,7 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
               {profile.suggestedProfiles.map((p, i) => (
                 <div key={i} style={{ display: 'flex', gap: '12px', borderBottom: i < profile.suggestedProfiles.length - 1 ? '1px solid #e0e0e0' : 'none', paddingBottom: '12px' }}>
-                  <img src={getFakeImageUrl(p.seed, 'avatar')} style={{ width: '48px', height: '48px', borderRadius: '50%' }} alt="" />
+                  <img src={getFakeImageUrl(p.seed, 'avatar')} style={{ width: '48px', height: '48px', borderRadius: '50%', filter: 'blur(5px)' }} alt="" />
                   <div>
                     <div style={{ fontSize: '14px', fontWeight: 600 }}>{p.name} <span style={{ color: '#666', fontWeight: 400 }}>· {p.company}</span></div>
                     <div style={{ fontSize: '12px', color: '#666', lineHeight: '1.2', marginTop: '2px', height: '2.4em', overflow: 'hidden' }}>{p.title}</div>
@@ -506,7 +506,7 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
                 { name: 'Stephanie Lopez', title: 'Shift Team Lead at Mom & Pop', seed: 'stephanie' }
               ].map((p, i) => (
                 <div key={i} style={{ display: 'flex', gap: '12px', borderBottom: '1px solid #e0e0e0', paddingBottom: '12px' }}>
-                  <img src={getFakeImageUrl(p.seed, 'avatar')} style={{ width: '48px', height: '48px', borderRadius: '50%' }} alt="" />
+                  <img src={getFakeImageUrl(p.seed, 'avatar')} style={{ width: '48px', height: '48px', borderRadius: '50%', filter: 'blur(5px)' }} alt="" />
                   <div>
                     <div style={{ fontSize: '14px', fontWeight: 600 }}>{p.name} <svg width="12" height="12" viewBox="0 0 24 24" fill="#666"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg></div>
                     <div style={{ fontSize: '12px', color: '#666', lineHeight: '1.2' }}>{p.title}</div>
