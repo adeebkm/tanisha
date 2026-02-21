@@ -2,7 +2,7 @@
 import { MongoClient } from 'mongodb';
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-const MONGODB_URI = 'mongodb+srv://estatedeliuser:estatedeli12345@cluster0.xwvmm93.mongodb.net/';
+const MONGODB_URI = 'mongodb+srv://skarmega_db_user:TVuabT70Dxm3VRAM@googlesim.bdwmndg.mongodb.net/';
 const DB_NAME = 'googlesim';
 const COLLECTION_NAME = 'tanisha_events';
 
