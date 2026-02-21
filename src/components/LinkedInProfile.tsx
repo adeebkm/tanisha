@@ -14,6 +14,7 @@ const DC_GOV_LOGO_BASE64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAA
 const RAMAIAH_LOGO_URL = "https://upload.wikimedia.org/wikipedia/en/5/5a/Ramaiah_Institutions_Logo.png";
 const CHICAGO_INVESTMENT_LOGO = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc1LTc3NzctNzc3Nzc3NzcuKzc3Ny01NzU3NzcrLSs1NzUrNzc3Nzc3KzUuNTU3N//AABEIACAAIAMBIgACEQEDEQH/xAAZAAEBAAMBAAAAAAAAAAAAAAAGBQMEBwH/xAAsEAACAQMDAgUCBwAAAAAAAAABAgMABBESITFBUQUTYXGxkeEUIjIzNHJz/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAMEAv/EABkRAAIDAQAAAAAAAAAAAAAAAAABAgMhEf/aAAwDAQACEQMRAD8A6v4zbRJM10YtghLkrqDHjGM7VMOifUEtYdCrqYBSpIG5PseMd6v+MRq9k5kk0xLu44BHvR8CAyDzLvW3neWGLE/kzkN9cj771ltXJFoPD1THEELWkIjlGpFIJIB65HQbbetUfB7eKWaO6EW2nKkLpCnjvvnf2qa4gSRjFd6XEoj1AkDGrc88cdTV7wWNUs1MchaJv0DOcDJ6+vNK12Qk8N2aMSxPG3DAg0ZjjuXjDG8bLKucRr1x6dwDSmjtv+yn9I/kVS1ajiBguI7qOGR/xhJCqTmNd989u+9JYIxDCkYOQqgZPWoN7/Gn/wA1+aRUrXGxN4f/2Q==";
 const MIDWEST_CAPITAL_LOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAA+0lEQVR4AWJwL/ChKx5BFgbNDOZgADBP3kYIA0EUpRM8BRBRgwjVBHbrUKQOKEEl4GN1cC3gycXuzMcbueVGwQP5t7baJ2bNGCDHPuPIfVUhPhzFYPAcMe1Spd+Sf5wbZWE8eYRrxkHkgQ1hgOvXe9uXYIxNoXO9jh7aE2JgCiTEug3mXbIiZFGHiZiJptAwJJm8yDzIlIQxiCSv0Jep/FI2jzmrCV+H4K1HQEcIyUNPXG3h9rV0Ui68qC5cfxmAvb4Q05dSWM8sBPFCgDKHfxKih/GEEJEc5xFGOUktnDEuU8eK1DEwhHsKwpQgCEJJZ0CO3ctGXruUrhgAPCIEzKkNgO0AAAAASUVORK5CYII=";
+const UMICH_LOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAApVBMVEUALWIALGIAHmQAG2QAJGUAJmQAK2PvzAb/1AD/2ABvbUsAIWVWWlL30wAsPVzsyBL/0QD/zwb2zwUAJ2MTMGHPtCO8pS3dwxSViT58d0fkyQqQg0FJUVafkTqLgEPjwRbXuR//0gAmPlo2SVfgvB94c0gAAGkADWiEe0XHryaajTz4ywzAqiokOV6umTQAFGdmZk7/2gD/4wC0njFdXk9fYE4zRFkLAycKAAAA5UlEQVR4AdSQxYHEMAwADWGUnGVmZuq/tIus5a3g5uXJxCj+HVJpwmFzrSjv3oQflIRRTOYkIVmacZUyB0QEkxVCeBUraD4jBtVYCl0L8COKukEibGjVDLm1KPLUdsC1k/Eg6HIiVI++AUJ/MEQAivoZY4o5B+j3fyP0RwZoxfEEfmOupyFi2J71P6KcL2yc1YJgOZ/TzNXs+UK10nFd7encuFF1jQj9zda7R39oL7LbJ4d9+0hjSL9faKeKIm6HXy+UHonTWQkRN05Hy/OFLpbruHTvdmWrSMEUjP3Xu4v822BMeQAvIhpCP1fdtwAAAABJRU5ErkJggg==";
 
 const companyColors: Record<string, string> = {
   'M': '#1a5276', 'C': '#1e8449', 'G': '#d35400', 'N': '#6c3483',
@@ -38,6 +39,7 @@ const CompanyLogo: React.FC<{ company: string; size?: number }> = ({ company, si
   const base64Logos: Record<string, string> = {
     'Chicago Investment': CHICAGO_INVESTMENT_LOGO,
     'Midwest Capital': MIDWEST_CAPITAL_LOGO,
+    'University of Michigan': UMICH_LOGO,
   };
   const matchedBase64 = Object.entries(base64Logos).find(([key]) => company.includes(key));
   if (matchedBase64) {
@@ -243,21 +245,21 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
                         backgroundColor: '#1a73e8',
                         color: 'white',
                         border: 'none',
-                        borderRadius: '20px',
-                        padding: '6px 16px',
+                        borderRadius: '28px',
+                        padding: '12px 24px',
                         cursor: 'pointer',
                         fontWeight: 600,
-                        fontSize: '13px',
+                        fontSize: '16px',
                         display: 'flex',
                         alignItems: 'center',
-                        gap: '6px',
+                        gap: '8px',
                         whiteSpace: 'nowrap',
                         transition: 'background-color 0.2s ease'
                       }}
                       onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#1557b0'; }}
                       onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#1a73e8'; }}
                     >
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                         <path d="M19 12H5M12 19l-7-7 7-7"/>
                       </svg>
                       Back to search
