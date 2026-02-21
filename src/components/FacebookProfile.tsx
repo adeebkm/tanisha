@@ -115,7 +115,10 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
             <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '40px', height: '40px', borderRadius: '50%', cursor: 'pointer' }} alt="" />
             <div style={{ position: 'absolute', bottom: 0, right: 0, width: '12px', height: '12px', backgroundColor: '#31a24c', borderRadius: '50%', border: '2px solid white' }} />
           </div>
-          <button onClick={onClose} style={{ marginLeft: '8px', padding: '4px 8px', borderRadius: '4px', border: '1px solid #ddd', background: 'white', cursor: 'pointer' }}>Close</button>
+          <button onClick={onClose} style={{ backgroundColor: '#ffeb3b', color: '#000', border: 'none', borderRadius: '20px', padding: isMobile ? '6px 12px' : '8px 16px', cursor: 'pointer', fontWeight: 600, fontSize: isMobile ? '12px' : '14px', display: 'flex', alignItems: 'center', gap: '6px', whiteSpace: 'nowrap', flexShrink: 0 }}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            Back to search
+          </button>
         </div>
       </div>
 
