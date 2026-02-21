@@ -115,12 +115,40 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
             <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: '40px', height: '40px', borderRadius: '50%', cursor: 'pointer', filter: 'blur(4px)' }} alt="" />
             <div style={{ position: 'absolute', bottom: 0, right: 0, width: '12px', height: '12px', backgroundColor: '#31a24c', borderRadius: '50%', border: '2px solid white' }} />
           </div>
-          <button onClick={onClose} style={{ backgroundColor: '#ffeb3b', color: '#000', border: 'none', borderRadius: '20px', padding: isMobile ? '6px 12px' : '8px 16px', cursor: 'pointer', fontWeight: 600, fontSize: isMobile ? '12px' : '14px', display: 'flex', alignItems: 'center', gap: '6px', whiteSpace: 'nowrap', flexShrink: 0 }}>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-            Back to search
-          </button>
         </div>
       </div>
+
+      {/* Floating Back to Search Button */}
+      <button
+        onClick={onClose}
+        style={{
+          position: 'fixed',
+          bottom: isMobile ? '20px' : '32px',
+          right: isMobile ? '20px' : '32px',
+          backgroundColor: '#1a73e8',
+          color: 'white',
+          border: 'none',
+          borderRadius: '28px',
+          padding: isMobile ? '12px 20px' : '14px 28px',
+          cursor: 'pointer',
+          fontWeight: 700,
+          fontSize: isMobile ? '14px' : '16px',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '8px',
+          zIndex: 9999,
+          boxShadow: '0 4px 16px rgba(26, 115, 232, 0.5)',
+          transition: 'all 0.2s ease',
+          whiteSpace: 'nowrap'
+        }}
+        onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#1557b0'; e.currentTarget.style.boxShadow = '0 6px 20px rgba(26, 115, 232, 0.6)'; }}
+        onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#1a73e8'; e.currentTarget.style.boxShadow = '0 4px 16px rgba(26, 115, 232, 0.5)'; }}
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to search
+      </button>
 
       {/* Sticky Profile Header (appears below navbar when scrolled) */}
       {showStickyHeader && (
