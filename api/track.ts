@@ -3,7 +3,7 @@ import { MongoClient } from 'mongodb';
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 const MONGODB_URI = process.env.MONGODB_URI || '';
-const DB_NAME = 'googlesim';
+const DB_NAME = 'GoogleSim';
 const COLLECTION_NAME = 'tanisha_events';
 
 // Handle CORS preflight
