@@ -2,7 +2,6 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { TopBar } from './components/TopBar';
 import { Tabs } from './components/Tabs';
 import { ResultCard } from './components/ResultCard';
-import { ResultModal } from './components/ResultModal';
 import { LinkedInProfileView as LinkedInProfile } from './components/LinkedInProfile';
 import { FacebookProfileView as FacebookProfile } from './components/FacebookProfile';
 import { PeopleAlsoSearchFor } from './components/PeopleAlsoSearchFor';
@@ -12,7 +11,7 @@ import {
   type SimResult
 } from './data/results';
 import { getRelatedSearches } from './data/relatedSearches';
-import { trackPageView, trackTabChange, trackPagination, trackSearch } from './utils/tracking';
+import { trackPageView, trackTabChange, trackPagination, trackSearch, trackResultClick } from './utils/tracking';
 
 interface GoogleSimulationProps {
   searchType?: 'tanisha';
@@ -204,7 +203,14 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
                       )}
                       <ResultCard
                         result={result}
-                        onOpen={setSelectedResult}
+                        onOpen={(result) => {
+                          // Track the click for all results
+                          trackResultClick(result.id, result.platform, result.displayName, 'tanisha');
+                          // Only open LinkedIn and Facebook profiles
+                          if (result.platform === 'LinkedIn' || result.platform === 'Facebook') {
+                            setSelectedResult(result);
+                          }
+                        }}
                         isDark={isDark}
                       />
                     </React.Fragment>
@@ -305,24 +311,18 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
         </div>
       </div>
 
-      {/* Result Modal, LinkedIn Profile, or Facebook Profile */}
-      {selectedResult && (
-        selectedResult.platform === 'LinkedIn' ? (
-          <LinkedInProfile
-            resultId={selectedResult.id}
-            onClose={() => setSelectedResult(null)}
-          />
-        ) : selectedResult.platform === 'Facebook' ? (
-          <FacebookProfile
-            resultId={selectedResult.id}
-            onClose={() => setSelectedResult(null)}
-          />
-        ) : (
-          <ResultModal
-            result={selectedResult}
-            onClose={() => setSelectedResult(null)}
-          />
-        )
+      {/* LinkedIn Profile or Facebook Profile */}
+      {selectedResult && selectedResult.platform === 'LinkedIn' && (
+        <LinkedInProfile
+          resultId={selectedResult.id}
+          onClose={() => setSelectedResult(null)}
+        />
+      )}
+      {selectedResult && selectedResult.platform === 'Facebook' && (
+        <FacebookProfile
+          resultId={selectedResult.id}
+          onClose={() => setSelectedResult(null)}
+        />
       )}
     </div>
   );
