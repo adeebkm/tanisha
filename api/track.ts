@@ -2,7 +2,7 @@
 import { MongoClient } from 'mongodb';
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-const MONGODB_URI = 'mongodb+srv://skarmega_db_user:TVuabT70Dxm3VRAM@googlesim.bdwmndg.mongodb.net/';
+const MONGODB_URI = process.env.MONGODB_URI || '';
 const DB_NAME = 'googlesim';
 const COLLECTION_NAME = 'tanisha_events';
 
@@ -62,6 +62,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         received: event,
         required: ['eventType', 'persona']
       });
+    }
+
+    // Check that MONGODB_URI is configured
+    if (!MONGODB_URI) {
+      console.error('❌ MONGODB_URI environment variable is not set');
+      return res.status(500).json({ error: 'Database not configured' });
     }
 
     // Connect to MongoDB
