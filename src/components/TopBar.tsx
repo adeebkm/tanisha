@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface TopBarProps {
   searchQuery: string;
@@ -7,6 +7,17 @@ interface TopBarProps {
 }
 
 export const TopBar: React.FC<TopBarProps> = ({ searchQuery, onSearchChange, isDark }) => {
+  const [isMobile, setIsMobile] = useState(false);
+  
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 640);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   const textColor = isDark ? '#e8eaed' : '#202124';
   const bgColor = isDark ? '#202124' : '#fff';
   const borderColor = isDark ? '#5f6368' : '#dfe1e5';
@@ -31,7 +42,7 @@ export const TopBar: React.FC<TopBarProps> = ({ searchQuery, onSearchChange, isD
           <div style={{ display: 'flex', alignItems: 'center', gap: '30px' }}>
             {/* Logo will be in search area, so this is empty or can be removed */}
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
             <button
               style={{
                 padding: '8px',
@@ -112,9 +123,9 @@ export const TopBar: React.FC<TopBarProps> = ({ searchQuery, onSearchChange, isD
         </div>
 
         {/* Search form area */}
-        <div style={{ maxWidth: '584px', margin: '0 auto', padding: '0 16px', position: 'relative', height: '100%', display: 'flex', alignItems: 'center', gap: '16px' }}>
+        <div style={{ maxWidth: '584px', margin: '0 auto', padding: isMobile ? '0 8px' : '0 16px', position: 'relative', height: '100%', display: 'flex', alignItems: 'center', gap: isMobile ? '4px' : '8px' }}>
           {/* Logo positioned to the left of search bar */}
-          <div style={{ flexShrink: 0 }}>
+          <div style={{ flexShrink: 0, display: isMobile ? 'none' : 'block' }}>
             <a href="#" style={{ textDecoration: 'none' }} onClick={(e) => e.preventDefault()}>
               <div style={{ fontSize: '20px', fontWeight: 400, letterSpacing: 0 }}>
                 {isDark ? (

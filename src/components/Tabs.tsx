@@ -57,7 +57,7 @@ export const Tabs: React.FC<TabsProps> = ({ activeTab, onTabChange, isDark }) =>
 
   return (
     <div style={{ backgroundColor: bgColor, borderBottom: `1px solid ${borderColor}` }}>
-      <div style={{ maxWidth: '1128px', margin: '0 auto', padding: '0 16px' }}>
+      <div style={{ maxWidth: '1128px', margin: '0 auto', padding: '0 8px' }}>
         <div style={{ position: 'relative', marginBottom: '-1px' }}>
           {showLeftButton && (
             <button

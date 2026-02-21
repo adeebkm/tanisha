@@ -123,7 +123,39 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
       <Tabs activeTab={activeTab} onTabChange={setActiveTab} isDark={isDark} />
 
       <div style={{ maxWidth: '1128px', margin: '0 auto', padding: isMobile ? '0 8px' : '0 16px' }}>
-        <div style={{ display: 'flex', gap: isMobile ? '0' : '32px', paddingTop: isMobile ? '12px' : '20px' }}>
+        {/* Back to survey button - outside the results column */}
+        <div style={{ paddingTop: isMobile ? '12px' : '20px', paddingBottom: '8px' }}>
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              // Non-functional for now
+            }}
+            style={{
+              backgroundColor: '#1a73e8',
+              border: 'none',
+              borderRadius: '24px',
+              padding: '12px 24px',
+              cursor: 'pointer',
+              color: '#fff',
+              fontWeight: 600,
+              fontSize: '16px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              whiteSpace: 'nowrap',
+              boxShadow: '0 2px 8px rgba(26, 115, 232, 0.4)',
+              transition: 'all 0.2s ease'
+            }}
+            onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#1557b0'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(26, 115, 232, 0.5)'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#1a73e8'; e.currentTarget.style.boxShadow = '0 2px 8px rgba(26, 115, 232, 0.4)'; }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            <span>Back to survey</span>
+          </button>
+        </div>
+        <div style={{ display: 'flex', gap: isMobile ? '0' : '32px' }}>
           {/* Main Results Column */}
           <div style={{ flex: '1', minWidth: 0, width: '100%' }}>
             {/* Results Count */}
