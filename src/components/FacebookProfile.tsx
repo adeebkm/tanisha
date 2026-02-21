@@ -118,38 +118,6 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
         </div>
       </div>
 
-      {/* Floating Back to Search Button */}
-      <button
-        onClick={onClose}
-        style={{
-          position: 'fixed',
-          bottom: isMobile ? '20px' : '32px',
-          right: isMobile ? '20px' : '32px',
-          backgroundColor: '#1a73e8',
-          color: 'white',
-          border: 'none',
-          borderRadius: '28px',
-          padding: isMobile ? '12px 20px' : '14px 28px',
-          cursor: 'pointer',
-          fontWeight: 700,
-          fontSize: isMobile ? '14px' : '16px',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px',
-          zIndex: 9999,
-          boxShadow: '0 4px 16px rgba(26, 115, 232, 0.5)',
-          transition: 'all 0.2s ease',
-          whiteSpace: 'nowrap'
-        }}
-        onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#1557b0'; e.currentTarget.style.boxShadow = '0 6px 20px rgba(26, 115, 232, 0.6)'; }}
-        onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#1a73e8'; e.currentTarget.style.boxShadow = '0 4px 16px rgba(26, 115, 232, 0.5)'; }}
-      >
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-          <path d="M19 12H5M12 19l-7-7 7-7"/>
-        </svg>
-        Back to search
-      </button>
-
       {/* Sticky Profile Header (appears below navbar when scrolled) */}
       {showStickyHeader && (
         <div style={{ 
@@ -184,7 +152,34 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
               <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: isMobile ? '120px' : '168px', height: isMobile ? '120px' : '168px', borderRadius: '50%', border: '4px solid white', backgroundColor: 'white', filter: 'blur(8px)' }} alt="" />
             </div>
             <div style={{ flex: 1, paddingBottom: isMobile ? '0' : '16px', textAlign: isMobile ? 'center' : 'left' }}>
-              <h1 style={{ fontSize: isMobile ? '24px' : '32px', fontWeight: 700, margin: 0 }}>{profile.name}</h1>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', justifyContent: isMobile ? 'center' : 'flex-start' }}>
+                <h1 style={{ fontSize: isMobile ? '24px' : '32px', fontWeight: 700, margin: 0 }}>{profile.name}</h1>
+                <button
+                  onClick={onClose}
+                  style={{
+                    backgroundColor: '#1a73e8',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '20px',
+                    padding: '6px 16px',
+                    cursor: 'pointer',
+                    fontWeight: 600,
+                    fontSize: '13px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '6px',
+                    whiteSpace: 'nowrap',
+                    transition: 'background-color 0.2s ease'
+                  }}
+                  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#1557b0'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#1a73e8'; }}
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                  </svg>
+                  Back to search
+                </button>
+              </div>
               <div style={{ fontSize: isMobile ? '14px' : '16px', color: '#65676b', fontWeight: 600 }}>{profile.friends}</div>
             </div>
             <div style={{ display: 'flex', gap: '8px', marginBottom: isMobile ? '0' : '16px', flexWrap: 'wrap', justifyContent: isMobile ? 'center' : 'flex-start' }}>

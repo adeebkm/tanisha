@@ -125,38 +125,6 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
         overscrollBehavior: 'contain'
       }}
     >
-      {/* Floating Back to Search Button */}
-      <button
-        onClick={onClose}
-        style={{
-          position: 'fixed',
-          bottom: isMobile ? '20px' : '32px',
-          right: isMobile ? '20px' : '32px',
-          backgroundColor: '#1a73e8',
-          color: 'white',
-          border: 'none',
-          borderRadius: '28px',
-          padding: isMobile ? '12px 20px' : '14px 28px',
-          cursor: 'pointer',
-          fontWeight: 700,
-          fontSize: isMobile ? '14px' : '16px',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px',
-          zIndex: 9999,
-          boxShadow: '0 4px 16px rgba(26, 115, 232, 0.5)',
-          transition: 'all 0.2s ease',
-          whiteSpace: 'nowrap'
-        }}
-        onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#1557b0'; e.currentTarget.style.boxShadow = '0 6px 20px rgba(26, 115, 232, 0.6)'; }}
-        onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#1a73e8'; e.currentTarget.style.boxShadow = '0 4px 16px rgba(26, 115, 232, 0.5)'; }}
-      >
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-          <path d="M19 12H5M12 19l-7-7 7-7"/>
-        </svg>
-        Back to search
-      </button>
-
       {/* Navigation Bar */}
       <div style={{ backgroundColor: '#ffffff', borderBottom: '1px solid #e0e0e0', position: 'sticky', top: 0, zIndex: 100 }}>
         <div style={{ maxWidth: '1128px', margin: '0 auto', height: '52px', display: 'flex', alignItems: 'center', padding: isMobile ? '0 8px' : '0 24px' }}>
@@ -264,11 +232,36 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
               </div>
               <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: 'space-between' }}>
                 <div style={{ flex: 1 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <h1 style={{ fontSize: isMobile ? '20px' : '24px', fontWeight: 600 }}>{profile.name}</h1>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+                    <h1 style={{ fontSize: isMobile ? '20px' : '24px', fontWeight: 600, margin: 0 }}>{profile.name}</h1>
                     {isAdeeb && (
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="#0a66c2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
                     )}
+                    <button
+                      onClick={onClose}
+                      style={{
+                        backgroundColor: '#1a73e8',
+                        color: 'white',
+                        border: 'none',
+                        borderRadius: '20px',
+                        padding: '6px 16px',
+                        cursor: 'pointer',
+                        fontWeight: 600,
+                        fontSize: '13px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '6px',
+                        whiteSpace: 'nowrap',
+                        transition: 'background-color 0.2s ease'
+                      }}
+                      onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#1557b0'; }}
+                      onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#1a73e8'; }}
+                    >
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                      </svg>
+                      Back to search
+                    </button>
                   </div>
                   <div style={{ fontSize: '16px', marginTop: '4px', maxWidth: '500px' }}>{profile.headline}</div>
                   <div style={{ fontSize: '14px', color: '#666', marginTop: '8px' }}>
