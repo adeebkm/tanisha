@@ -263,6 +263,20 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
                     </div>
                   </div>
                 )}
+                <img
+                  src="/back-to-search.png"
+                  alt="Back to search"
+                  onClick={onClose}
+                  style={{
+                    height: '200px',
+                    cursor: 'pointer',
+                    transition: 'opacity 0.2s ease',
+                    flexShrink: 0,
+                    alignSelf: 'flex-start'
+                  }}
+                  onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
+                />
               </div>
               <div style={{ display: 'flex', gap: '8px', marginTop: isMobile ? '16px' : '24px', flexWrap: 'wrap' }}>
                 <button style={{ backgroundColor: '#0a66c2', color: 'white', border: 'none', borderRadius: '24px', padding: isMobile ? '6px 12px' : '6px 16px', fontWeight: 600, fontSize: isMobile ? '14px' : '16px' }}>+ Follow</button>
@@ -587,22 +601,6 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
           </div>
         </div>
       </div>
-      <img
-        src="/back-to-search.png"
-        alt="Back to search"
-        onClick={onClose}
-        style={{
-          position: 'fixed',
-          bottom: '20px',
-          right: '20px',
-          height: '200px',
-          cursor: 'pointer',
-          transition: 'opacity 0.2s ease',
-          zIndex: 1001
-        }}
-        onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
-        onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
-      />
     </div>
   );
 };
