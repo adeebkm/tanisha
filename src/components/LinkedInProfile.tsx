@@ -244,7 +244,7 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
                       alt="Back to search"
                       onClick={onClose}
                       style={{
-                        height: '120px',
+                        height: '200px',
                         cursor: 'pointer',
                         transition: 'opacity 0.2s ease',
                         flexShrink: 0
