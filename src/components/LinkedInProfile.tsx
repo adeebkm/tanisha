@@ -197,6 +197,24 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
           {/* Header Card */}
           <div style={{ backgroundColor: 'white', borderRadius: '8px', border: '1px solid #e0e0e0', overflow: 'hidden', marginBottom: '12px' }}>
             <div style={{ height: isMobile ? '120px' : '200px', backgroundColor: '#d0d7de', position: 'relative' }}>
+              {isMobile && (
+                <img
+                  src="/back-to-search.png"
+                  alt="Back to search"
+                  onClick={onClose}
+                  style={{
+                    position: 'absolute',
+                    top: '10px',
+                    right: '10px',
+                    height: '100px',
+                    cursor: 'pointer',
+                    transition: 'opacity 0.2s ease',
+                    zIndex: 10
+                  }}
+                  onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
+                />
+              )}
             </div>
             <div style={{ padding: isMobile ? '0 12px 16px' : '0 24px 24px', position: 'relative' }}>
               <div style={{ marginTop: isMobile ? '-56px' : '-112px', marginBottom: '16px' }}>
@@ -239,20 +257,7 @@ export const LinkedInProfileView: React.FC<LinkedInProfileProps> = ({ resultId, 
                     {isAdeeb && (
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="#0a66c2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
                     )}
-                    {isMobile && (
-                      <img
-                        src="/back-to-search.png"
-                        alt="Back to search"
-                        onClick={onClose}
-                        style={{
-                          height: '80px',
-                          cursor: 'pointer',
-                          transition: 'opacity 0.2s ease'
-                        }}
-                        onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
-                        onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
-                      />
-                    )}
+                    
                   </div>
                   <div style={{ fontSize: '16px', marginTop: '4px', maxWidth: '500px' }}>{profile.headline}</div>
                   <div style={{ fontSize: '14px', color: '#666', marginTop: '8px' }}>
