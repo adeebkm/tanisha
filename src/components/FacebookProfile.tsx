@@ -144,6 +144,24 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
         <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
           {/* Cover Photo Area */}
           <div style={{ height: isMobile ? '200px' : '400px', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '0 0 8px 8px', position: 'relative' }}>
+            {isMobile && (
+              <img
+                src="/back-to-search.png"
+                alt="Back to search"
+                onClick={onClose}
+                style={{
+                  position: 'absolute',
+                  top: '10px',
+                  right: '10px',
+                  height: '100px',
+                  cursor: 'pointer',
+                  transition: 'opacity 0.2s ease',
+                  zIndex: 10
+                }}
+                onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
+              />
+            )}
           </div>
 
           {/* Profile Identity Area */}
@@ -168,6 +186,22 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
                 <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
               </button>
             </div>
+            {!isMobile && (
+              <img
+                src="/back-to-search.png"
+                alt="Back to search"
+                onClick={onClose}
+                style={{
+                  height: '200px',
+                  cursor: 'pointer',
+                  transition: 'opacity 0.2s ease',
+                  flexShrink: 0,
+                  alignSelf: 'flex-start'
+                }}
+                onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
+              />
+            )}
           </div>
 
           {/* Profile Tabs */}
@@ -305,22 +339,7 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
           </div>
         )}
       </div>
-      <img
-        src="/back-to-search.png"
-        alt="Back to search"
-        onClick={onClose}
-        style={{
-          position: 'fixed',
-          bottom: '20px',
-          right: '20px',
-          height: '200px',
-          cursor: 'pointer',
-          transition: 'opacity 0.2s ease',
-          zIndex: 1001
-        }}
-        onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
-        onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
-      />
+      
     </div>
   );
 };
