@@ -152,22 +152,7 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
               <img src={getFakeImageUrl(resultId, 'avatar')} style={{ width: isMobile ? '120px' : '168px', height: isMobile ? '120px' : '168px', borderRadius: '50%', border: '4px solid white', backgroundColor: 'white', filter: 'blur(8px)' }} alt="" />
             </div>
             <div style={{ flex: 1, paddingBottom: isMobile ? '0' : '16px', textAlign: isMobile ? 'center' : 'left' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', justifyContent: isMobile ? 'center' : 'flex-start' }}>
-                <h1 style={{ fontSize: isMobile ? '24px' : '32px', fontWeight: 700, margin: 0 }}>{profile.name}</h1>
-                <img
-                  src="/back-to-search.png"
-                  alt="Back to search"
-                  onClick={onClose}
-                  style={{
-                    height: '200px',
-                    cursor: 'pointer',
-                    transition: 'opacity 0.2s ease',
-                    flexShrink: 0
-                  }}
-                  onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
-                  onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
-                />
-              </div>
+              <h1 style={{ fontSize: isMobile ? '24px' : '32px', fontWeight: 700, margin: 0 }}>{profile.name}</h1>
               <div style={{ fontSize: isMobile ? '14px' : '16px', color: '#65676b', fontWeight: 600 }}>{profile.friends}</div>
             </div>
             <div style={{ display: 'flex', gap: '8px', marginBottom: isMobile ? '0' : '16px', flexWrap: 'wrap', justifyContent: isMobile ? 'center' : 'flex-start' }}>
@@ -320,6 +305,22 @@ export const FacebookProfileView: React.FC<FacebookProfileProps> = ({ resultId, 
           </div>
         )}
       </div>
+      <img
+        src="/back-to-search.png"
+        alt="Back to search"
+        onClick={onClose}
+        style={{
+          position: 'fixed',
+          bottom: '20px',
+          right: '20px',
+          height: '200px',
+          cursor: 'pointer',
+          transition: 'opacity 0.2s ease',
+          zIndex: 1001
+        }}
+        onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
+        onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
+      />
     </div>
   );
 };
