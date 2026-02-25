@@ -61,7 +61,7 @@ function App() {
   return (
     <ErrorBoundary>
       <div style={{ minHeight: '100vh', backgroundColor: '#fff' }}>
-        <GoogleSimulation searchType="meredith" />
+        <GoogleSimulation searchType="tanisha" />
       </div>
     </ErrorBoundary>
   );

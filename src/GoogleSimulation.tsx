@@ -25,6 +25,12 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
   const [isMobile, setIsMobile] = useState(false);
   const resultsPerPage = 10;
 
+  // Read footprint condition from URL parameter (?condition=absent)
+  const footprintCondition = useMemo(() => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('condition') || 'present';
+  }, []);
+
   // Force light mode as requested
   const isDark = false;
 
@@ -60,10 +66,15 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
     }
   }, [currentPage]);
 
-  // Get results for Tanisha
+  // Get results for Tanisha (filter out LinkedIn/Facebook in footprint absent condition)
   const allResults = useMemo(() => {
+    if (footprintCondition === 'absent') {
+      return RESULTS_Tanisha_Jefferson.filter(
+        r => r.platform !== 'LinkedIn' && r.platform !== 'Facebook'
+      );
+    }
     return RESULTS_Tanisha_Jefferson;
-  }, []);
+  }, [footprintCondition]);
 
   // Filter results by active tab
   const filteredResults = useMemo(() => {
@@ -125,9 +136,12 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
         {/* Back to survey button - outside the results column */}
         <div style={{ paddingTop: isMobile ? '12px' : '20px', paddingBottom: '8px' }}>
           <button
-            onClick={(e) => {
-              e.preventDefault();
-              // Non-functional for now
+            onClick={() => {
+              const params = new URLSearchParams(window.location.search);
+              const returnUrl = params.get('returnUrl');
+              if (returnUrl) {
+                window.location.href = returnUrl;
+              }
             }}
             style={{
               backgroundColor: '#1a73e8',
@@ -151,7 +165,7 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
               <path d="M19 12H5M12 19l-7-7 7-7"/>
             </svg>
-            <span>Back to survey</span>
+            <span>Done Searching</span>
           </button>
         </div>
         <div style={{ display: 'flex', gap: isMobile ? '0' : '32px' }}>
@@ -206,6 +220,8 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
                         onOpen={(result) => {
                           // Track the click for all results
                           trackResultClick(result.id, result.platform, result.displayName, 'tanisha');
+                          // In footprint absent condition, no profiles open
+                          if (footprintCondition === 'absent') return;
                           // Only open LinkedIn and Facebook profiles
                           if (result.platform === 'LinkedIn' || result.platform === 'Facebook') {
                             setSelectedResult(result);
