@@ -5,7 +5,7 @@ import { ResultCard } from './components/ResultCard';
 import { LinkedInProfileView as LinkedInProfile } from './components/LinkedInProfile';
 import { FacebookProfileView as FacebookProfile } from './components/FacebookProfile';
 import { PeopleAlsoSearchFor } from './components/PeopleAlsoSearchFor';
-import { ImagesSection } from './components/ImagesSection';
+
 import {
   RESULTS_Tanisha_Jefferson,
   type SimResult
@@ -186,35 +186,8 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
             ) : (
               <div>
                 {paginatedResults.map((result, index) => {
-                  const shouldShowTanishaImages = currentPage === 1 && index === 0;
-                  
                   return (
                     <React.Fragment key={result.id}>
-                      {shouldShowTanishaImages && (
-                        <ImagesSection
-                          images={[
-                            {
-                              id: 'tanisha-img-1',
-                              title: 'Tanisha Jefferson – LinkedIn',
-                              source: 'LinkedIn',
-                              imageUrl: 'https://media.licdn.com/dms/image/v2/C4D03AQGv2Fb6sA2XSA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1572534569543?e=2147483647&v=beta&t=wL_Mych4iW6jEeAGsb8a6wRST-aBDq7tWdpH9Vszt9M'
-                            },
-                            {
-                              id: 'tanisha-img-2',
-                              title: 'Tanisha Jefferson – Professional Profile',
-                              source: 'Professional Network',
-                              imageUrl: 'https://www.courier-journal.com/gcdn/-mm-/ce8b541bd9edf06175cce0204e99bd4b524a6f29/c=0-83-996-1411/local/-/media/2017/09/08/Louisville/Louisville/636404646455746707-LCJBrd2-10-20-2016-KY-1-A013--2016-10-19-IMG-Tanisha-Ann-Hickerso-1-1-OSG1EJAD-L903633790-IMG-Tanisha-Ann-Hickerso-1-1-OSG1EJAD.jpg?width=458&height=610&fit=crop&format=pjpg&auto=webp'
-                            },
-                            {
-                              id: 'tanisha-img-3',
-                              title: 'Tanisha Jefferson – Profile',
-                              source: 'Social Media',
-                              imageUrl: '/Photos/Race - Black - Female/1716b819-83d5-41b9-93f8-2d2bf47c87a5.jpg'
-                            }
-                          ]}
-                          isDark={isDark}
-                        />
-                      )}
                       <ResultCard
                         result={result}
                         onOpen={(result) => {
