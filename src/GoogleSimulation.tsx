@@ -25,11 +25,9 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
   const [isMobile, setIsMobile] = useState(false);
   const resultsPerPage = 10;
 
-  // Read footprint condition from URL parameter (?condition=absent)
-  const footprintCondition = useMemo(() => {
-    const params = new URLSearchParams(window.location.search);
-    return params.get('condition') || 'present';
-  }, []);
+  const initialParams = useMemo(() => new URLSearchParams(window.location.search), []);
+  const returnUrl = useMemo(() => initialParams.get('returnUrl'), [initialParams]);
+  const footprintCondition = useMemo(() => initialParams.get('condition') || 'present', [initialParams]);
 
   // Force light mode as requested
   const isDark = false;
@@ -137,11 +135,11 @@ const GoogleSimulation: React.FC<GoogleSimulationProps> = ({ searchType = 'tanis
         <div style={{ paddingTop: isMobile ? '12px' : '20px', paddingBottom: '8px' }}>
           <button
             onClick={() => {
-              const params = new URLSearchParams(window.location.search);
-              const returnUrl = params.get('returnUrl');
-              if (returnUrl) {
-                window.location.href = returnUrl;
+              if (!returnUrl) {
+                console.error('Missing returnUrl query parameter');
+                return;
               }
+              window.location.href = returnUrl;
             }}
             style={{
               backgroundColor: '#1a73e8',
